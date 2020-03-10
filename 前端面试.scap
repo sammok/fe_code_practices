@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="3EE30690-1275-458A-8207-C40B695065F3">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="2173.490723,282.042572" Width="97.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>promise+ 规范 
+手写实现
+(规则、应用)</String>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="2749.760742,979.0" Width="137.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>debounce、throttle 实现</String>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="2174.490723,251.042572" Width="128.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>ES5 - ES6 基础、特性</String>
+            <ConnectedNoteIDs>212</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="2171.490723,348.042572" Width="131.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>prototype chain
+prototype vs __proto__</String>
+            <ConnectedNoteIDs>208</ConnectedNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="2169.490723,393.042572" Width="185.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>inheritance(ES5, ES6) 6种的样子</String>
+            <ConnectedNoteIDs>211</ConnectedNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="2462.760742,482.0" Width="100.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>1px、移动端适配</String>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="2746.760742,490.0" Width="155.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>webpack 基础、分包、优化</String>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="2462.760742,691.0" Width="86.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>CRP 首屏优化</String>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="2460.760742,718.0" Width="117.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>60FPS流畅动画优化</String>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="2157.760742,786.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>三次握手</String>
+            <ConnectedNoteIDs>185-186</ConnectedNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="2156.760742,815.0" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>http code 含义</String>
+            <ConnectedNoteIDs>188</ConnectedNoteIDs>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="2156.760742,846.0" Width="127.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>GraphQL、Serverless</String>
+        </Note>
+        <Note ID="12" FontSize="12.0" Position="2169.760742,989.0" Width="73.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Nodejs 基础</String>
+            <ConnectedNoteIDs>166, 169-170, 172-175</ConnectedNoteIDs>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="2169.490723,424.042572" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>ES Module、CommonJS 区别，实现（看杨建）</String>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="2458.760742,750.0" Width="224.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>常见前端性能优化(Input, Mouse Event, list)</String>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="2460.760742,542.0" Width="171.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>CSS 架构方法论(like CSSOM)</String>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="3043.857666,485.872253" Width="249.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>设计模式(观察者，中介者，适配器，装饰者)</String>
+            <ConnectedNoteIDs>235</ConnectedNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="2584.760742,483.0" Width="86.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>BFC的含义</String>
+        </Note>
+        <Note ID="27" FontSize="17.0" Position="2251.490723,210.042572" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>ES6</String>
+        </Note>
+        <Note ID="34" FontSize="17.0" Position="2545.760742,441.0" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>CSS</String>
+        </Note>
+        <Note ID="38" FontSize="17.0" Position="2198.760742,748.0" Width="107.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>NETWORK</String>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="3062.760742,636.0" Width="113.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>MongoDB 设计范式</String>
+        </Note>
+        <Note ID="42" FontSize="17.0" Position="3112.760742,596.0" Width="119.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>Linux、数据库</String>
+        </Note>
+        <Note ID="45" FontSize="17.0" Position="2234.760742,951.0" Width="66.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>Node.js</String>
+        </Note>
+        <Note ID="47" FontSize="12.0" Position="2169.760742,1020.0" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>中间件开发</String>
+        </Note>
+        <Note ID="48" FontSize="12.0" Position="2170.760742,1052.0" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Stream 操作(co)</String>
+            <ConnectedNoteIDs>139</ConnectedNoteIDs>
+        </Note>
+        <Note ID="49" FontSize="12.0" Position="2169.760742,1083.0" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Cluster 部署</String>
+        </Note>
+        <Note ID="50" FontSize="12.0" Position="2169.760742,1114.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>线上监控</String>
+        </Note>
+        <Note ID="51" FontSize="12.0" Position="2158.760742,873.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>http 缓存</String>
+            <ConnectedNoteIDs>189</ConnectedNoteIDs>
+        </Note>
+        <Note ID="68" FontSize="17.0" Position="2517.760742,642.0" Width="76.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>优化手段</String>
+        </Note>
+        <Note ID="70" FontSize="12.0" Position="2751.760742,893.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>数组去重</String>
+        </Note>
+        <Note ID="71" FontSize="17.0" Position="2808.760742,853.0" Width="88.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>算法&amp;编码</String>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="2751.760742,924.0" Width="75.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>sum(1)(2)(3)</String>
+        </Note>
+        <Note ID="74" FontSize="12.0" Position="2751.760742,952.0" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>climbing stairs</String>
+        </Note>
+        <Note ID="76" FontSize="17.0" Position="2835.760742,447.0" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>工程化</String>
+        </Note>
+        <Note ID="78" FontSize="12.0" Position="2747.760742,560.0" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>大型项目架构方法论</String>
+        </Note>
+        <Note ID="79" FontSize="12.0" Position="2747.760742,591.0" Width="128.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>UI框架如何开发与管理</String>
+        </Note>
+        <Note ID="80" FontSize="12.0" Position="2747.760742,622.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>数据上报埋点</String>
+        </Note>
+        <Note ID="81" FontSize="12.0" Position="2747.760742,653.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>开发流程</String>
+        </Note>
+        <Note ID="82" FontSize="12.0" Position="2747.760742,684.0" Width="245.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>如何保证线上项目质量(Sentry、Sonarcube)</String>
+        </Note>
+        <Note ID="84" FontSize="17.0" Position="3125.81958,443.803192" Width="76.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>设计模式</String>
+        </Note>
+        <Note ID="86" FontSize="12.0" Position="2458.760742,795.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>虚拟列表原理</String>
+        </Note>
+        <Note ID="87" FontSize="12.0" Position="2748.760742,715.0" Width="120.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>编码规范、 辅助工具</String>
+        </Note>
+        <Note ID="88" FontSize="12.0" Position="2749.760742,1010.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>各大排序算法</String>
+        </Note>
+        <Note ID="89" FontSize="12.0" Position="2749.760742,1041.0" Width="25.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>DP</String>
+        </Note>
+        <Note ID="90" FontSize="12.0" Position="2169.760742,1145.0" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>SSR 基本操作</String>
+            <ConnectedNoteIDs>176</ConnectedNoteIDs>
+        </Note>
+        <Note ID="91" FontSize="12.0" Position="2748.760742,746.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>单元测试</String>
+        </Note>
+        <Note ID="93" FontSize="12.0" Position="2748.760742,777.0" Width="28.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>GIT</String>
+        </Note>
+        <Note ID="97" FontSize="12.0" Position="2459.760742,985.0" Width="67.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>React 原理</String>
+            <ConnectedNoteIDs>120</ConnectedNoteIDs>
+        </Note>
+        <Note ID="98" FontSize="17.0" Position="2525.760742,945.0" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>React</String>
+        </Note>
+        <Note ID="100" FontSize="12.0" Position="2459.760742,1016.0" Width="71.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Redux 原理</String>
+        </Note>
+        <Note ID="101" FontSize="12.0" Position="2168.490723,518.042542" Width="78.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Async、yield</String>
+        </Note>
+        <Note ID="102" FontSize="12.0" Position="2169.760742,1176.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>错误捕获</String>
+            <ConnectedNoteIDs>184</ConnectedNoteIDs>
+        </Note>
+        <Note ID="103" FontSize="12.0" Position="2459.760742,1047.0" Width="83.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Redux 中间件</String>
+        </Note>
+        <Note ID="104" FontSize="12.0" Position="2459.760742,1078.0" Width="138.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>React、Redux 最佳实践</String>
+        </Note>
+        <Note ID="105" FontSize="12.0" Position="2459.760742,1109.0" Width="91.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>React 性能优化</String>
+        </Note>
+        <Note ID="106" FontSize="12.0" Position="2459.760742,1140.0" Width="63.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Storybook</String>
+        </Note>
+        <Note ID="107" FontSize="12.0" Position="2458.760742,826.0" Width="91.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>image lazyload</String>
+        </Note>
+        <Note ID="108" FontSize="12.0" Position="2458.760742,854.0" Width="174.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>性能检测工具 
+page speed、Lighthouse、e2e</String>
+        </Note>
+        <Note ID="109" FontSize="12.0" Position="2461.760742,512.0" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Flex 布局</String>
+        </Note>
+        <Note ID="110" FontSize="12.0" Position="2460.760742,573.0" Width="72.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>手写 UI框架</String>
+        </Note>
+        <Note ID="114" FontSize="12.0" Position="3062.760742,667.0" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>主从备份Cluster</String>
+        </Note>
+        <Note ID="115" FontSize="12.0" Position="3062.760742,698.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>性能优化</String>
+        </Note>
+        <Note ID="116" FontSize="12.0" Position="3062.760742,729.0" Width="89.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Linux 常用命令</String>
+        </Note>
+        <Note ID="117" FontSize="12.0" Position="3062.760742,760.0" Width="125.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Linux 权限与账户系统</String>
+        </Note>
+        <Note ID="118" FontSize="12.0" Position="2749.760742,1069.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>深浅拷贝</String>
+        </Note>
+        <Note ID="120" FontSize="12.0" Position="2543.760742,986.0" Width="36.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Fiber</String>
+            <ConnectedNoteIDs>97</ConnectedNoteIDs>
+        </Note>
+        <Note ID="121" FontSize="12.0" Position="2746.760742,521.0" Width="164.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>webpack 实现 loader、plugin</String>
+        </Note>
+        <Note ID="123" FontSize="15.0" Position="3130.760742,848.0" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>软技能</String>
+        </Note>
+        <Note ID="125" FontSize="12.0" Position="3036.760742,889.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>人生观啊</String>
+        </Note>
+        <Note ID="126" FontSize="12.0" Position="3036.760742,920.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>最遗憾的事啊</String>
+        </Note>
+        <Note ID="127" FontSize="12.0" Position="3036.760742,951.0" Width="104.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>最有成就感的事啊</String>
+        </Note>
+        <Note ID="128" FontSize="12.0" Position="2429.760742,1185.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>如何高效复习</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="129" FontSize="12.0" Position="2430.760742,1212.0" Width="248.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>先选好需要补的模块，逐步进行
+第二天复习所选模块，总共需要复习五次
+备注各个知识点的参考链接，自己做浓缩笔记</String>
+        </Note>
+        <Note ID="130" FontSize="12.0" Position="2265.760742,817.0" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>MIME类型</String>
+        </Note>
+        <Note ID="132" FontSize="12.0" Position="2734.760742,1172.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>1. 锚点动画如何实现？
+2. 如何实现1px
+3. 实现圆形，三角形，四边形，以及N边形
+4. 禁用a标签链接或按钮
+5. 如果你用过 CSS Flex / CSS Grid（网格）布局，请说明你为什么要使用它？它为你解决了什么问题？
+使用  CSS Grid，百分比％和 fr 单位有何不同？
+使用 CSS flexbox，有时 flex-items/children 会不考虑 flex 容器设置的宽度/高度？为什么会这样？
+可以使用 CSS Grid创建 Masonry layout（瀑布流布局）吗？如果可以，怎么做？
+解释 CSS Grid和 CSS flexbox 术语？
+浮动元素（float：left | right;）如何在 CSS Grid 和 flexbox 中渲染？</String>
+        </Note>
+        <Note ID="133" FontSize="12.0" Position="2956.760742,1176.0" Width="201.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>预处理器与运行时JS之间 如何共享变量？
+css与js之间变量如何共享？
+css变量比scss好在什么地方
+网站换肤有哪些方案</String>
+        </Note>
+        <Note ID="134" FontSize="12.0" Position="2838.760742,1031.0" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>阶乘</String>
+        </Note>
+        <Note ID="135" FontSize="12.0" Position="2286.490723,287.042572" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>apply call bind</String>
+        </Note>
+        <Note ID="136" FontSize="12.0" Position="2265.760742,789.0" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>CDN</String>
+        </Note>
+        <Note ID="137" FontSize="12.0" Position="2169.760742,1207.0" Width="67.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>读 Co 源码</String>
+        </Note>
+        <Note ID="139" FontSize="12.0" Position="2174.22876,1318.874512" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>https://es6.ruanyifeng.com/#docs/generator-async#%E5%AE%9E%E4%BE%8B%EF%BC%9A%E5%A4%84%E7%90%86-Stream</String>
+            <ConnectedNoteIDs>48</ConnectedNoteIDs>
+        </Note>
+        <Note ID="141" FontSize="12.0" Position="2201.490723,167.042572" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>完成</String>
+        </Note>
+        <Note ID="143" FontSize="12.0" Position="2243.490723,167.042572" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.957566 0.766747 0.999616</Fill>
+            </Appearance>
+            <String>进行中</String>
+        </Note>
+        <Note ID="144" FontSize="12.0" Position="2838.760742,59.0" Width="132.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>https://css-tricks.com/an-introduction-and-guide-to-the-css-object-model-cssom/</String>
+            <Formatting>
+                <FormatRange Link="https://css-tricks.com/an-introduction-and-guide-to-the-css-object-model-cssom/">0,79</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="145" FontSize="12.0" Position="2522.760742,355.0" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String><![CDATA[ ]]></String>
+        </Note>
+        <Note ID="147" FontSize="12.0" Position="2666.760742,32.0" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>CSSOM</String>
+        </Note>
+        <Note ID="148" FontSize="12.0" Position="2522.760742,79.0" Width="130.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>RTL Selector Matching</String>
+            <ConnectedNoteIDs>149</ConnectedNoteIDs>
+        </Note>
+        <Note ID="149" FontSize="12.0" Position="2460.760742,108.0" Width="267.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>从 gmail 提供的大量数据上来说，对于百分之70%的元素来说，最右边的选择器就能知道这整串选择器是否匹配的到元素
+
+选择器最重要的应用是什么，是匹配最右边的选择器，然后将它的规则应用到元素上去，如果你从左边一直找到最后，发现最右边那个选择器根本没有匹配任何元素，那么你从左到右搜寻DOM的工作就白白浪费了
+
+如果你从最右边的选择器开始搜DOM，那么一开始 你就确定了这个选择器的目标元素的集合（明确的起点），再不断向左匹配即可，性能上RTL 会比 LTR 快很多
+
+无非就是个性能问题</String>
+            <ConnectedNoteIDs>148</ConnectedNoteIDs>
+        </Note>
+        <Note ID="151" FontSize="12.0" Position="3235.760742,34.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>Promise 手写</String>
+        </Note>
+        <Note ID="153" FontSize="12.0" Position="3070.760742,71.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>https://hackernoon.com/implementing-javascript-promise-in-70-lines-of-code-b3592565af0f</String>
+            <Formatting>
+                <FormatRange Underline="Yes" Link="https://hackernoon.com/implementing-javascript-promise-in-70-lines-of-code-b3592565af0f">0,87</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="155" FontSize="12.0" Position="3072.760742,127.0" Width="251.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- promiseA+规范
+- 三个状态
+- thenable Interface
+- Promise.resolve|reject 静态直接返回一个 promise 实例
+- 状态机来切换状态，而非许多 if statement
+- </String>
+        </Note>
+        <Note ID="156" FontSize="12.0" Position="2310.490723,251.042572" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>闭包</String>
+        </Note>
+        <Note ID="157" FontSize="12.0" Position="2308.490723,321.042572" Width="27.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>this</String>
+        </Note>
+        <Note ID="158" FontSize="12.0" Position="2168.490723,470.042572" Width="26.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>GC</String>
+        </Note>
+        <Note ID="159" FontSize="12.0" Position="1807.89624,225.335007" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>并发，串行</String>
+            <ConnectedNoteIDs>160</ConnectedNoteIDs>
+        </Note>
+        <Note ID="160" FontSize="12.0" Position="1677.50061,262.335022" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>并发：一段时间内，一个时间轮片中，完成所有任务(event loop)
+并行：
+串行：一个接一个</String>
+            <ConnectedNoteIDs>159, 161</ConnectedNoteIDs>
+        </Note>
+        <Note ID="161" FontSize="15.0" Position="1589.672119,174.770279" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>异步编程</String>
+            <ConnectedNoteIDs>160, 162, 190-192, 194</ConnectedNoteIDs>
+        </Note>
+        <Note ID="162" FontSize="12.0" Position="1727.50061,354.335022" Width="105.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Generator 过气了,
+使用 Async 代替</String>
+            <ConnectedNoteIDs>161, 163</ConnectedNoteIDs>
+        </Note>
+        <Note ID="163" FontSize="12.0" Position="1680.50061,405.335022" Width="150.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>1.竞态 promise  race，any</String>
+            <ConnectedNoteIDs>162, 164</ConnectedNoteIDs>
+        </Note>
+        <Note ID="164" FontSize="12.0" Position="1680.50061,442.335022" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>2.串行 async await, promise 函数递归</String>
+            <ConnectedNoteIDs>163, 165</ConnectedNoteIDs>
+        </Note>
+        <Note ID="165" FontSize="12.0" Position="1680.50061,490.335022" Width="137.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>3.实现一个 promise limit</String>
+            <ConnectedNoteIDs>164</ConnectedNoteIDs>
+        </Note>
+        <Note ID="166" FontSize="12.0" Position="2266.760742,991.0" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>event loop</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="167" FontSize="12.0" Position="2268.760742,1020.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>文件操作</String>
+        </Note>
+        <Note ID="169" FontSize="12.0" Position="2028.76062,944.0" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>大文件上传</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="170" FontSize="12.0" Position="2028.76062,975.0" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>QPS</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="172" FontSize="12.0" Position="2028.76062,1003.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>幂等性</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="173" FontSize="12.0" Position="2028.76062,1034.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>任务调度</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="174" FontSize="12.0" Position="2028.76062,1065.0" Width="37.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>sleep</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="175" FontSize="12.0" Position="2028.76062,1093.0" Width="62.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>redis 原理</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="176" FontSize="12.0" Position="2012.76062,1146.0" Width="99.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Stream 流式渲染</String>
+            <ConnectedNoteIDs>90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="177" FontSize="12.0" Position="2289.760742,1053.0" Width="77.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>日志
+- 清、写、查</String>
+        </Note>
+        <Note ID="178" FontSize="12.0" Position="2279.760742,1111.0" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>matrix</String>
+        </Note>
+        <Note ID="179" FontSize="12.0" Position="2239.760742,1176.0" Width="143.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>监控 CPU 内存 反查 快照</String>
+        </Note>
+        <Note ID="180" FontSize="12.0" Position="2276.760742,1140.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>高速缓存</String>
+        </Note>
+        <Note ID="181" FontSize="12.0" Position="2266.760742,1210.0" Width="94.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>RPC应用层协议</String>
+        </Note>
+        <Note ID="183" FontSize="12.0" Position="2168.760742,1237.0" Width="47.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Docker</String>
+        </Note>
+        <Note ID="184" FontSize="12.0" Position="2083.760742,1177.0" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Sentry</String>
+            <ConnectedNoteIDs>102</ConnectedNoteIDs>
+        </Note>
+        <Note ID="185" FontSize="12.0" Position="1930.76062,699.0" Width="160.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>七层网络分层 每一层有哪些协议</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="186" FontSize="12.0" Position="1930.76062,747.0" Width="169.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>三次握手细化到 ACK SYNC值
+四次挥手状态细节</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="188" FontSize="12.0" Position="1921.76062,791.0" Width="196.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>http 协议扩展 从版本 1.1 到 HTTP2
+头部压缩
+推送
+HTTP2 传输层协议 
+HTTP3.0 UDP 重传和校准机制</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">7,2</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="189" FontSize="12.0" Position="1920.76062,885.0" Width="176.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>headers
+强制缓存，协商缓存，缓存击穿(锁)</String>
+            <ConnectedNoteIDs>51</ConnectedNoteIDs>
+        </Note>
+        <Note ID="190" FontSize="12.0" Position="1488.50061,222.335007" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>异步：不连续的执行</String>
+            <ConnectedNoteIDs>161</ConnectedNoteIDs>
+            <PointsToNoteIDs>161</PointsToNoteIDs>
+        </Note>
+        <Note ID="191" FontSize="12.0" Position="1379.50061,326.335022" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.0 0.0 0.914985</TextColor>
+            </Appearance>
+            <String>https://github.com/mqyqingfeng/Blog/issues/98
+
+https://github.com/dai-siki/Blog/issues/1</String>
+            <ConnectedNoteIDs>161</ConnectedNoteIDs>
+            <PointsToNoteIDs>161</PointsToNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/98">0,45</FormatRange>
+                <FormatRange Underline="Yes">45,1</FormatRange>
+                <FormatRange Underline="Yes">46,1</FormatRange>
+                <FormatRange Underline="Yes" Link="https://github.com/dai-siki/Blog/issues/1">47,41</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="192" FontSize="12.0" Position="1386.50061,254.335007" Width="155.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>协程：挂起和恢复执行，
+可以转移控制权 比如
+generator 的 yield 就是暂停</String>
+            <ConnectedNoteIDs>161</ConnectedNoteIDs>
+            <PointsToNoteIDs>161</PointsToNoteIDs>
+        </Note>
+        <Note ID="194" FontSize="12.0" Position="1377.50061,414.335022" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>回调、事件监听、发布订阅、Promise、Generator、Async</String>
+            <ConnectedNoteIDs>161, 195-197</ConnectedNoteIDs>
+            <PointsToNoteIDs>161</PointsToNoteIDs>
+        </Note>
+        <Note ID="195" FontSize="12.0" Position="1378.50061,463.335022" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Promises对象是CommonJS工作组提出的一种规范，目的是为异步编程提供统一接口</String>
+            <ConnectedNoteIDs>194</ConnectedNoteIDs>
+        </Note>
+        <Note ID="196" FontSize="12.0" Position="1378.50061,528.335022" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Generator 需要执行器，所以才有了 Co 模块</String>
+            <ConnectedNoteIDs>194</ConnectedNoteIDs>
+        </Note>
+        <Note ID="197" FontSize="12.0" Position="1378.50061,588.335022" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>async 函数改造了 generator, 内置了执行器，return value 是 promise</String>
+            <ConnectedNoteIDs>194, 198</ConnectedNoteIDs>
+        </Note>
+        <Note ID="198" FontSize="12.0" Position="1378.50061,636.335022" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>callback 改 promise</String>
+            <ConnectedNoteIDs>197</ConnectedNoteIDs>
+        </Note>
+        <Note ID="199" FontSize="12.0" Position="3368.760742,808.0" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>直接说不会</String>
+        </Note>
+        <Note ID="201" FontSize="15.0" Position="3462.760742,774.0" Width="38.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>面试</String>
+        </Note>
+        <Note ID="202" FontSize="12.0" Position="3368.760742,839.0" Width="188.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>简历每一条都要做好被提问的准备</String>
+        </Note>
+        <Note ID="203" FontSize="12.0" Position="3368.760742,870.0" Width="128.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>往在你擅长的方面上扯</String>
+        </Note>
+        <Note ID="204" FontSize="12.0" Position="3367.760742,900.0" Width="254.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>你的优点
+你的缺点
+最近在看什么书? 怎么学习的前端知识? 保持自我学习?
+为什么要从事前端?
+为什么离职？
+你的职业规划
+有什么问题问我的吗？
+最近项目解决的一个技术难点，即项目中遇到了哪些坑？怎样解决的？
+最近做的最成功的一次分享是什么
+说一件你做的最酷的事情是什么
+怎样理解前端工程化？
+前端发展趋势？
+框架选型依据？
+所在团队工作流程的介绍、以及你在团队中的定位和技术排名</String>
+        </Note>
+        <Note ID="205" FontSize="12.0" Position="3367.760742,1203.0" Width="254.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>“根据我今天的表现，面试官对我有什么建议？”</String>
+        </Note>
+        <Note ID="206" FontSize="12.0" Position="3586.760742,784.0" Width="213.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>1 - 3 年的规划
+为什么会选择离开？
+如果你再待一年，你会做什么？
+如何选择新的技术选型？
+前端发展趋势
+团队的组成、在团队的定位、技术排名</String>
+        </Note>
+        <Note ID="207" FontSize="12.0" Position="2307.760742,955.0" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+            </Appearance>
+            <String>优先级最低</String>
+        </Note>
+        <Note ID="208" FontSize="12.0" Position="1920.466431,287.697327" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>https://github.com/mqyqingfeng/Blog/issues/2</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/2">0,44</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="209" FontSize="12.0" Position="3569.760742,978.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>https://github.com/liusaint/Interview-Questions-Answers</String>
+            <Formatting>
+                <FormatRange Underline="Yes" Link="https://github.com/liusaint/Interview-Questions-Answers">0,55</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="211" FontSize="12.0" Position="1933.085815,339.812653" Width="175.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>https://github.com/mqyqingfeng/Blog/issues/16
+原型链继承
+借用构造函数继承
+组合继承
+原型式继承
+寄生继承
+寄生组合继承</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Link="https://github.com/mqyqingfeng/Blog/issues/16">0,45</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="212" FontSize="12.0" Position="1935.076538,170.284012" Width="185.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>阮一峰(了解特性)
+https://es6.ruanyifeng.com/#docs
+
+冴羽（了解细节）
+https://github.com/mqyqingfeng/Blog
+</String>
+            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes" Link="https://es6.ruanyifeng.com/#docs">10,32</FormatRange>
+                <FormatRange Underline="Yes">42,2</FormatRange>
+                <FormatRange Underline="Yes">52,1</FormatRange>
+                <FormatRange Link="https://github.com/mqyqingfeng/Blog">53,35</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="216" FontSize="17.0" Position="1326.008301,696.622009" Width="104.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>ES 语言层面</String>
+        </Note>
+        <Note ID="217" FontSize="12.0" Position="901.62085,739.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>作用域：程序源代码中定义变量的区域
+- 作用域规定了程序如何查找变量，也就是确定当前执行代码对变量的访问权限</String>
+            <ConnectedNoteIDs>218</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,3</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="218" FontSize="12.0" Position="894.360107,841.467346" Width="303.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>JS采用词法作用域(lexical scoping)
+也就是静态作用域
+函数的作用域在函数定义的时候就决定了
+而动态作用域(比如bash)，函数的作用域是在函数调用的时候才决定的</String>
+            <ConnectedNoteIDs>217, 219</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">4,5</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="219" FontSize="12.0" Position="901.517944,943.850647" Width="250.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>https://github.com/mqyqingfeng/Blog/issues/3</String>
+            <ConnectedNoteIDs>218</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/3">0,44</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="221" FontSize="12.0" Position="1194.400269,741.859863" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>JS是一段一段来分析执行程序的
+
+当遇到可执行代码(全局代码、函数代码、eval) 时会进行准备工作：
+执行上下文(execution context)
+
+程序的函数那么多如何管理上下文呢？JS引擎会创建 执行上下文栈(Execution context stack，ECS)来管理执行上下文
+</String>
+            <ConnectedNoteIDs>223-224</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">52,5</FormatRange>
+                <FormatRange Bold="Yes">57,19</FormatRange>
+                <FormatRange Bold="Yes">103,6</FormatRange>
+                <FormatRange Bold="Yes">109,24</FormatRange>
+                <FormatRange Bold="Yes">133,1</FormatRange>
+                <FormatRange Bold="Yes">134,4</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="223" FontSize="12.0" Position="1195.9104,938.908081" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>https://github.com/mqyqingfeng/Blog/issues/4</String>
+            <ConnectedNoteIDs>221</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/4">0,44</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="224" FontSize="12.0" Position="1401.0,743.0" Width="142.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>执行上下文包含：
+变量对象(variable object)
+作用域链(scope chain)
+this</String>
+            <ConnectedNoteIDs>221, 226</ConnectedNoteIDs>
+        </Note>
+        <Note ID="225" FontSize="12.0" Position="1402.848389,942.19165" Width="167.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>全局对象是JS引擎预设的对象</String>
+        </Note>
+        <Note ID="226" FontSize="12.0" Position="1402.250488,821.623169" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>进入执行上下文时，首先会处理函数声明，其次会处理变量声明
+函数创建时内部有 [[scope]] 属性用来记录作用域链</String>
+            <ConnectedNoteIDs>224, 227</ConnectedNoteIDs>
+        </Note>
+        <Note ID="227" FontSize="12.0" Position="1402.0,904.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>https://github.com/mqyqingfeng/Blog/issues/6</String>
+            <ConnectedNoteIDs>226</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/6">0,44</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="228" FontSize="12.0" Position="1645.479736,689.827637" Width="29.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>this</String>
+            <ConnectedNoteIDs>229-230</ConnectedNoteIDs>
+        </Note>
+        <Note ID="229" FontSize="12.0" Position="1636.985474,744.826538" Width="199.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>this 的值取决于函数被调用时是否是引用类型
+- 作为 object 的方法被调用
+- 作为普通函数被调用
+- 函数经过 bind, apply, call 调用
+
+正经的 this 得从 ECMA 规范看</String>
+            <ConnectedNoteIDs>228</ConnectedNoteIDs>
+        </Note>
+        <Note ID="230" FontSize="12.0" Position="1686.98291,697.81073" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>https://github.com/mqyqingfeng/Blog/issues/7</String>
+            <ConnectedNoteIDs>228</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/7">0,44</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="231" FontSize="12.0" Position="961.206299,976.0" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>闭包</String>
+            <ConnectedNoteIDs>232-234</ConnectedNoteIDs>
+        </Note>
+        <Note ID="232" FontSize="12.0" Position="896.458435,1009.0" Width="273.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>MDN定义：
+闭包指那些能够访问自由变量的函数
+自由变量是指在函数中使用的，但既不是函数参数，也不是函数的局部变量的变量
+
+闭包 = 函数 + 函数能够访问自由变量</String>
+            <ConnectedNoteIDs>231</ConnectedNoteIDs>
+        </Note>
+        <Note ID="233" FontSize="12.0" Position="1166.785034,992.140808" Width="422.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.106479 0.120249 0.135259</TextColor>
+            </Appearance>
+            <String>汤姆大叔定义：
+1.	从理论角度：所有的函数。因为它们都在创建的时候就将上层上下文的数据保存起来了。哪怕是简单的全局变量也是如此，因为函数中访问全局变量就相当于是在访问自由变量，这个时候使用最外层的作用域。
+2.	从实践角度：以下函数才算是闭包：
+	i.	即使创建它的上下文已经销毁，它仍然存在（比如，内部函数从父函数中返回）
+	ii.	在函数代码中引用了自由变量
+
+为什么可以闭包？
+因为 f 执行上下文维护了一个作用域链，即使依赖的其他上下文被执行完毕弹出了 ECS，被依赖的上下文.AO 还会维持在内存中 ，
+解释闭包的时候请解释执行上下文的 AO，这样很专业，面试官懵逼惊叹膜拜
+fContext = {
+    Scope: [AO, checkscopeContext.AO, globalContext.VO],
+}
+</String>
+            <ConnectedNoteIDs>231</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">258,16</FormatRange>
+                <FormatRange Bold="Yes">274,3</FormatRange>
+                <FormatRange Bold="Yes">277,16</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="234" FontSize="12.0" Position="900.035522,1127.707031" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>https://github.com/mqyqingfeng/Blog/issues/9 深入闭包</String>
+            <ConnectedNoteIDs>231</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/9">0,44</FormatRange>
+                <FormatRange Underline="Yes">44,1</FormatRange>
+                <FormatRange Underline="Yes">45,4</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="235" FontSize="12.0" Position="3061.572266,521.141113" Width="207.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>https://segmentfault.com/n/1330000008386889</String>
+            <ConnectedNoteIDs>25</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes" Link="https://segmentfault.com/n/1330000008386889">0,43</FormatRange>
+            </Formatting>
+        </Note>
+    </Notes>
+    <BackgroundShapes>
+        <Shape ID="28" Sticky="Yes" Position="2137.490723,205.042572" Width="260.0" Height="343.294434">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="35" Sticky="Yes" Position="2431.760742,436.0" Width="260.0" Height="171.460938">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="39" Sticky="Yes" Position="2140.760742,741.0" Width="260.0" Height="176.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="43" Sticky="Yes" Position="3031.760742,590.0" Width="260.0" Height="220.097656">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="46" Sticky="Yes" Position="2140.760742,943.0" Width="259.872467" Height="340.695312">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="69" Sticky="Yes" Position="2430.760742,635.0" Width="258.0" Height="291.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="72" Sticky="Yes" Position="2720.760742,847.0" Width="260.0" Height="278.824219">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="77" Sticky="Yes" Position="2722.760742,435.0" Width="290.0" Height="385.320312">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="85" Sticky="Yes" Position="3036.760742,435.0" Width="260.0" Height="135.972656">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="99" Sticky="Yes" Position="2429.760742,939.0" Width="260.0" Height="234.785156">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="124" Sticky="No" Position="3021.760742,839.0" Width="300.0" Height="200.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="146" Sticky="Yes" Position="2439.760742,26.0" Width="559.724915" Height="372.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="150" Sticky="No" Position="3044.760742,26.0" Width="461.518494" Height="368.211029">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="200" Sticky="No" Position="3344.760742,767.0" Width="466.0" Height="491.980896">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="213" Sticky="No" Position="1335.205444,166.0" Width="574.0" Height="508.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="214" Sticky="Yes" Position="887.0,686.0" Width="1025.0" Height="615.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+    </BackgroundShapes>
+    <Stacks>
+        <Stack>1, 88-89, 118</Stack>
+        <Stack>4, 15</Stack>
+        <Stack>6, 121</Stack>
+        <Stack>10-11</Stack>
+        <Stack>12, 47</Stack>
+        <Stack>16, 86, 107-108</Stack>
+        <Stack>18, 110</Stack>
+        <Stack>40, 114-117</Stack>
+        <Stack>49-50, 90, 102, 137</Stack>
+        <Stack>70, 73-74</Stack>
+        <Stack>78-82</Stack>
+        <Stack>87, 91, 93</Stack>
+        <Stack>97, 100, 103-106</Stack>
+        <Stack>125-127</Stack>
+        <Stack>136, 130</Stack>
+        <Stack>164-165</Stack>
+        <Stack>169-170, 172-175</Stack>
+        <Stack>185-186</Stack>
+        <Stack>195-196</Stack>
+        <Stack>197-198</Stack>
+        <Stack>199, 202-203</Stack>
+        <Stack>204-205</Stack>
+        <Stack>226-227</Stack>
+    </Stacks>
+    <AutoFit>1-6, 8-12, 27, 34, 40, 45, 47, 49-51, 68, 70-71, 73-74, 76, 78-81, 84, 86-91, 93, 97-98, 100-106, 108-110, 115-118, 120-121, 123, 125-130, 134-137, 141, 143, 145, 147-148, 151, 156-159, 161-163, 165-167, 169-170, 172-176, 178-181, 183-184, 186, 188, 190, 192, 199, 201-203, 207, 216, 219, 224-225, 231</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="CC4DF569-44F5-41C7-8B86-F77A465C9131" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="E6B03A19-3D35-4DE0-9B1F-D91131739FEB" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="354D411E-61CB-4568-9742-765219DF907C" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="37C0405F-EE34-4BF7-A0BD-ABAD7090CE8A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="43F99195-1452-486B-B34A-6DA115E4C841" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="E96C8403-221D-4775-BAA7-5E44F4D2BA38" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="3466AE96-F9B3-4AE6-B22D-D0C29508120B" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
