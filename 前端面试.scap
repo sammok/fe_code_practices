@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ScappleDocument Version="1.1" ID="3EE30690-1275-458A-8207-C40B695065F3">
     <Notes>
-        <Note ID="0" FontSize="12.0" Position="2173.490723,282.042572" Width="97.0">
+        <Note ID="0" FontSize="12.0" Position="2173.0,282.0" Width="97.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.561855 0.71062 0.779401</Border>
@@ -11,13 +11,13 @@
 手写实现
 (规则、应用)</String>
         </Note>
-        <Note ID="1" FontSize="12.0" Position="2749.760742,979.0" Width="137.0">
+        <Note ID="1" FontSize="12.0" Position="2750.0,979.0" Width="137.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>debounce、throttle 实现</String>
         </Note>
-        <Note ID="2" FontSize="12.0" Position="2174.490723,251.042572" Width="128.0">
+        <Note ID="2" FontSize="12.0" Position="2174.0,251.0" Width="128.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.561855 0.71062 0.779401</Border>
@@ -26,7 +26,7 @@
             <String>ES5 - ES6 基础、特性</String>
             <ConnectedNoteIDs>212</ConnectedNoteIDs>
         </Note>
-        <Note ID="3" FontSize="12.0" Position="2171.490723,348.042572" Width="131.0">
+        <Note ID="3" FontSize="12.0" Position="2171.0,348.0" Width="131.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.561855 0.71062 0.779401</Border>
@@ -36,7 +36,7 @@
 prototype vs __proto__</String>
             <ConnectedNoteIDs>208</ConnectedNoteIDs>
         </Note>
-        <Note ID="4" FontSize="12.0" Position="2169.490723,393.042572" Width="185.0">
+        <Note ID="4" FontSize="12.0" Position="2169.0,393.0" Width="185.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.561855 0.71062 0.779401</Border>
@@ -45,89 +45,89 @@ prototype vs __proto__</String>
             <String>inheritance(ES5, ES6) 6种的样子</String>
             <ConnectedNoteIDs>211</ConnectedNoteIDs>
         </Note>
-        <Note ID="5" FontSize="12.0" Position="2462.760742,482.0" Width="100.0">
+        <Note ID="5" FontSize="12.0" Position="2463.0,482.0" Width="100.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>1px、移动端适配</String>
         </Note>
-        <Note ID="6" FontSize="12.0" Position="2746.760742,490.0" Width="155.0">
+        <Note ID="6" FontSize="12.0" Position="2747.0,490.0" Width="155.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>webpack 基础、分包、优化</String>
         </Note>
-        <Note ID="7" FontSize="12.0" Position="2462.760742,691.0" Width="86.0">
+        <Note ID="7" FontSize="12.0" Position="2463.0,691.0" Width="86.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>CRP 首屏优化</String>
         </Note>
-        <Note ID="8" FontSize="12.0" Position="2460.760742,718.0" Width="117.0">
+        <Note ID="8" FontSize="12.0" Position="2461.0,718.0" Width="117.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>60FPS流畅动画优化</String>
         </Note>
-        <Note ID="9" FontSize="12.0" Position="2157.760742,786.0" Width="56.0">
+        <Note ID="9" FontSize="12.0" Position="2158.0,786.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>三次握手</String>
             <ConnectedNoteIDs>185-186</ConnectedNoteIDs>
         </Note>
-        <Note ID="10" FontSize="12.0" Position="2156.760742,815.0" Width="85.0">
+        <Note ID="10" FontSize="12.0" Position="2157.0,815.0" Width="85.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>http code 含义</String>
             <ConnectedNoteIDs>188</ConnectedNoteIDs>
         </Note>
-        <Note ID="11" FontSize="12.0" Position="2156.760742,846.0" Width="127.0">
+        <Note ID="11" FontSize="12.0" Position="2157.0,846.0" Width="127.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>GraphQL、Serverless</String>
         </Note>
-        <Note ID="12" FontSize="12.0" Position="2169.760742,989.0" Width="73.0">
+        <Note ID="12" FontSize="12.0" Position="2170.0,989.0" Width="73.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Nodejs 基础</String>
             <ConnectedNoteIDs>166, 169-170, 172-175</ConnectedNoteIDs>
         </Note>
-        <Note ID="15" FontSize="12.0" Position="2169.490723,424.042572" Width="200.0">
+        <Note ID="15" FontSize="12.0" Position="2169.0,424.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>ES Module、CommonJS 区别，实现（看杨建）</String>
         </Note>
-        <Note ID="16" FontSize="12.0" Position="2458.760742,750.0" Width="224.0">
+        <Note ID="16" FontSize="12.0" Position="2459.0,750.0" Width="224.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>常见前端性能优化(Input, Mouse Event, list)</String>
         </Note>
-        <Note ID="18" FontSize="12.0" Position="2460.760742,542.0" Width="171.0">
+        <Note ID="18" FontSize="12.0" Position="2461.0,542.0" Width="171.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>CSS 架构方法论(like CSSOM)</String>
         </Note>
-        <Note ID="25" FontSize="12.0" Position="3043.857666,485.872253" Width="249.0">
+        <Note ID="25" FontSize="12.0" Position="3044.0,486.0" Width="249.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>设计模式(观察者，中介者，适配器，装饰者)</String>
             <ConnectedNoteIDs>235</ConnectedNoteIDs>
         </Note>
-        <Note ID="26" FontSize="12.0" Position="2584.760742,483.0" Width="86.0">
+        <Note ID="26" FontSize="12.0" Position="2585.0,483.0" Width="86.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>BFC的含义</String>
         </Note>
-        <Note ID="27" FontSize="17.0" Position="2251.490723,210.042572" Width="41.0">
+        <Note ID="27" FontSize="17.0" Position="2251.0,210.0" Width="41.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -135,7 +135,7 @@ prototype vs __proto__</String>
             </Appearance>
             <String>ES6</String>
         </Note>
-        <Note ID="34" FontSize="17.0" Position="2545.760742,441.0" Width="43.0">
+        <Note ID="34" FontSize="17.0" Position="2546.0,441.0" Width="43.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -143,7 +143,7 @@ prototype vs __proto__</String>
             </Appearance>
             <String>CSS</String>
         </Note>
-        <Note ID="38" FontSize="17.0" Position="2198.760742,748.0" Width="107.0">
+        <Note ID="38" FontSize="17.0" Position="2199.0,748.0" Width="107.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -151,13 +151,13 @@ prototype vs __proto__</String>
             </Appearance>
             <String>NETWORK</String>
         </Note>
-        <Note ID="40" FontSize="12.0" Position="3062.760742,636.0" Width="113.0">
+        <Note ID="40" FontSize="12.0" Position="3063.0,636.0" Width="113.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>MongoDB 设计范式</String>
         </Note>
-        <Note ID="42" FontSize="17.0" Position="3112.760742,596.0" Width="119.0">
+        <Note ID="42" FontSize="17.0" Position="3113.0,596.0" Width="119.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -165,7 +165,7 @@ prototype vs __proto__</String>
             </Appearance>
             <String>Linux、数据库</String>
         </Note>
-        <Note ID="45" FontSize="17.0" Position="2234.760742,951.0" Width="66.0">
+        <Note ID="45" FontSize="17.0" Position="2235.0,951.0" Width="66.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -173,39 +173,39 @@ prototype vs __proto__</String>
             </Appearance>
             <String>Node.js</String>
         </Note>
-        <Note ID="47" FontSize="12.0" Position="2169.760742,1020.0" Width="68.0">
+        <Note ID="47" FontSize="12.0" Position="2170.0,1020.0" Width="68.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>中间件开发</String>
         </Note>
-        <Note ID="48" FontSize="12.0" Position="2170.760742,1052.0" Width="96.0">
+        <Note ID="48" FontSize="12.0" Position="2171.0,1052.0" Width="96.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Stream 操作(co)</String>
             <ConnectedNoteIDs>139</ConnectedNoteIDs>
         </Note>
-        <Note ID="49" FontSize="12.0" Position="2169.760742,1083.0" Width="74.0">
+        <Note ID="49" FontSize="12.0" Position="2170.0,1083.0" Width="74.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Cluster 部署</String>
         </Note>
-        <Note ID="50" FontSize="12.0" Position="2169.760742,1114.0" Width="56.0">
+        <Note ID="50" FontSize="12.0" Position="2170.0,1114.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>线上监控</String>
         </Note>
-        <Note ID="51" FontSize="12.0" Position="2158.760742,873.0" Width="56.0">
+        <Note ID="51" FontSize="12.0" Position="2159.0,873.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>http 缓存</String>
             <ConnectedNoteIDs>189</ConnectedNoteIDs>
         </Note>
-        <Note ID="68" FontSize="17.0" Position="2517.760742,642.0" Width="76.0">
+        <Note ID="68" FontSize="17.0" Position="2518.0,642.0" Width="76.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -213,13 +213,13 @@ prototype vs __proto__</String>
             </Appearance>
             <String>优化手段</String>
         </Note>
-        <Note ID="70" FontSize="12.0" Position="2751.760742,893.0" Width="56.0">
+        <Note ID="70" FontSize="12.0" Position="2752.0,893.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>数组去重</String>
         </Note>
-        <Note ID="71" FontSize="17.0" Position="2808.760742,853.0" Width="88.0">
+        <Note ID="71" FontSize="17.0" Position="2809.0,853.0" Width="88.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -227,19 +227,19 @@ prototype vs __proto__</String>
             </Appearance>
             <String>算法&amp;编码</String>
         </Note>
-        <Note ID="73" FontSize="12.0" Position="2751.760742,924.0" Width="75.0">
+        <Note ID="73" FontSize="12.0" Position="2752.0,924.0" Width="75.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>sum(1)(2)(3)</String>
         </Note>
-        <Note ID="74" FontSize="12.0" Position="2751.760742,952.0" Width="85.0">
+        <Note ID="74" FontSize="12.0" Position="2752.0,952.0" Width="85.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>climbing stairs</String>
         </Note>
-        <Note ID="76" FontSize="17.0" Position="2835.760742,447.0" Width="59.0">
+        <Note ID="76" FontSize="17.0" Position="2836.0,447.0" Width="59.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -247,37 +247,37 @@ prototype vs __proto__</String>
             </Appearance>
             <String>工程化</String>
         </Note>
-        <Note ID="78" FontSize="12.0" Position="2747.760742,560.0" Width="116.0">
+        <Note ID="78" FontSize="12.0" Position="2748.0,560.0" Width="116.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>大型项目架构方法论</String>
         </Note>
-        <Note ID="79" FontSize="12.0" Position="2747.760742,591.0" Width="128.0">
+        <Note ID="79" FontSize="12.0" Position="2748.0,591.0" Width="128.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>UI框架如何开发与管理</String>
         </Note>
-        <Note ID="80" FontSize="12.0" Position="2747.760742,622.0" Width="80.0">
+        <Note ID="80" FontSize="12.0" Position="2748.0,622.0" Width="80.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>数据上报埋点</String>
         </Note>
-        <Note ID="81" FontSize="12.0" Position="2747.760742,653.0" Width="56.0">
+        <Note ID="81" FontSize="12.0" Position="2748.0,653.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>开发流程</String>
         </Note>
-        <Note ID="82" FontSize="12.0" Position="2747.760742,684.0" Width="245.0">
+        <Note ID="82" FontSize="12.0" Position="2748.0,684.0" Width="245.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>如何保证线上项目质量(Sentry、Sonarcube)</String>
         </Note>
-        <Note ID="84" FontSize="17.0" Position="3125.81958,443.803192" Width="76.0">
+        <Note ID="84" FontSize="17.0" Position="3126.0,444.0" Width="76.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -285,57 +285,57 @@ prototype vs __proto__</String>
             </Appearance>
             <String>设计模式</String>
         </Note>
-        <Note ID="86" FontSize="12.0" Position="2458.760742,795.0" Width="80.0">
+        <Note ID="86" FontSize="12.0" Position="2459.0,795.0" Width="80.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>虚拟列表原理</String>
         </Note>
-        <Note ID="87" FontSize="12.0" Position="2748.760742,715.0" Width="120.0">
+        <Note ID="87" FontSize="12.0" Position="2749.0,715.0" Width="120.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>编码规范、 辅助工具</String>
         </Note>
-        <Note ID="88" FontSize="12.0" Position="2749.760742,1010.0" Width="80.0">
+        <Note ID="88" FontSize="12.0" Position="2750.0,1010.0" Width="80.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>各大排序算法</String>
         </Note>
-        <Note ID="89" FontSize="12.0" Position="2749.760742,1041.0" Width="25.0">
+        <Note ID="89" FontSize="12.0" Position="2750.0,1041.0" Width="25.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>DP</String>
         </Note>
-        <Note ID="90" FontSize="12.0" Position="2169.760742,1145.0" Width="85.0">
+        <Note ID="90" FontSize="12.0" Position="2170.0,1145.0" Width="85.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>SSR 基本操作</String>
             <ConnectedNoteIDs>176</ConnectedNoteIDs>
         </Note>
-        <Note ID="91" FontSize="12.0" Position="2748.760742,746.0" Width="56.0">
+        <Note ID="91" FontSize="12.0" Position="2749.0,746.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>单元测试</String>
         </Note>
-        <Note ID="93" FontSize="12.0" Position="2748.760742,777.0" Width="28.0">
+        <Note ID="93" FontSize="12.0" Position="2749.0,777.0" Width="28.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>GIT</String>
         </Note>
-        <Note ID="97" FontSize="12.0" Position="2459.760742,985.0" Width="67.0">
+        <Note ID="97" FontSize="12.0" Position="2460.0,985.0" Width="67.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>React 原理</String>
             <ConnectedNoteIDs>120</ConnectedNoteIDs>
         </Note>
-        <Note ID="98" FontSize="17.0" Position="2525.760742,945.0" Width="53.0">
+        <Note ID="98" FontSize="17.0" Position="2526.0,945.0" Width="53.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -343,13 +343,13 @@ prototype vs __proto__</String>
             </Appearance>
             <String>React</String>
         </Note>
-        <Note ID="100" FontSize="12.0" Position="2459.760742,1016.0" Width="71.0">
+        <Note ID="100" FontSize="12.0" Position="2460.0,1016.0" Width="71.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Redux 原理</String>
         </Note>
-        <Note ID="101" FontSize="12.0" Position="2168.490723,518.042542" Width="78.0">
+        <Note ID="101" FontSize="12.0" Position="2168.0,518.0" Width="78.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.561855 0.71062 0.779401</Border>
@@ -357,106 +357,106 @@ prototype vs __proto__</String>
             </Appearance>
             <String>Async、yield</String>
         </Note>
-        <Note ID="102" FontSize="12.0" Position="2169.760742,1176.0" Width="56.0">
+        <Note ID="102" FontSize="12.0" Position="2170.0,1176.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>错误捕获</String>
             <ConnectedNoteIDs>184</ConnectedNoteIDs>
         </Note>
-        <Note ID="103" FontSize="12.0" Position="2459.760742,1047.0" Width="83.0">
+        <Note ID="103" FontSize="12.0" Position="2460.0,1047.0" Width="83.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Redux 中间件</String>
         </Note>
-        <Note ID="104" FontSize="12.0" Position="2459.760742,1078.0" Width="138.0">
+        <Note ID="104" FontSize="12.0" Position="2460.0,1078.0" Width="138.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>React、Redux 最佳实践</String>
         </Note>
-        <Note ID="105" FontSize="12.0" Position="2459.760742,1109.0" Width="91.0">
+        <Note ID="105" FontSize="12.0" Position="2460.0,1109.0" Width="91.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>React 性能优化</String>
         </Note>
-        <Note ID="106" FontSize="12.0" Position="2459.760742,1140.0" Width="63.0">
+        <Note ID="106" FontSize="12.0" Position="2460.0,1140.0" Width="63.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Storybook</String>
         </Note>
-        <Note ID="107" FontSize="12.0" Position="2458.760742,826.0" Width="91.0">
+        <Note ID="107" FontSize="12.0" Position="2459.0,826.0" Width="91.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>image lazyload</String>
         </Note>
-        <Note ID="108" FontSize="12.0" Position="2458.760742,854.0" Width="174.0">
+        <Note ID="108" FontSize="12.0" Position="2459.0,854.0" Width="174.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>性能检测工具 
 page speed、Lighthouse、e2e</String>
         </Note>
-        <Note ID="109" FontSize="12.0" Position="2461.760742,512.0" Width="59.0">
+        <Note ID="109" FontSize="12.0" Position="2462.0,512.0" Width="59.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Flex 布局</String>
         </Note>
-        <Note ID="110" FontSize="12.0" Position="2460.760742,573.0" Width="72.0">
+        <Note ID="110" FontSize="12.0" Position="2461.0,573.0" Width="72.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>手写 UI框架</String>
         </Note>
-        <Note ID="114" FontSize="12.0" Position="3062.760742,667.0" Width="96.0">
+        <Note ID="114" FontSize="12.0" Position="3063.0,667.0" Width="96.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>主从备份Cluster</String>
         </Note>
-        <Note ID="115" FontSize="12.0" Position="3062.760742,698.0" Width="56.0">
+        <Note ID="115" FontSize="12.0" Position="3063.0,698.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>性能优化</String>
         </Note>
-        <Note ID="116" FontSize="12.0" Position="3062.760742,729.0" Width="89.0">
+        <Note ID="116" FontSize="12.0" Position="3063.0,729.0" Width="89.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Linux 常用命令</String>
         </Note>
-        <Note ID="117" FontSize="12.0" Position="3062.760742,760.0" Width="125.0">
+        <Note ID="117" FontSize="12.0" Position="3063.0,760.0" Width="125.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Linux 权限与账户系统</String>
         </Note>
-        <Note ID="118" FontSize="12.0" Position="2749.760742,1069.0" Width="56.0">
+        <Note ID="118" FontSize="12.0" Position="2750.0,1069.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>深浅拷贝</String>
         </Note>
-        <Note ID="120" FontSize="12.0" Position="2543.760742,986.0" Width="36.0">
+        <Note ID="120" FontSize="12.0" Position="2544.0,986.0" Width="36.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Fiber</String>
             <ConnectedNoteIDs>97</ConnectedNoteIDs>
         </Note>
-        <Note ID="121" FontSize="12.0" Position="2746.760742,521.0" Width="164.0">
+        <Note ID="121" FontSize="12.0" Position="2747.0,521.0" Width="164.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>webpack 实现 loader、plugin</String>
         </Note>
-        <Note ID="123" FontSize="15.0" Position="3130.760742,848.0" Width="53.0">
+        <Note ID="123" FontSize="15.0" Position="3131.0,848.0" Width="53.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -464,25 +464,25 @@ page speed、Lighthouse、e2e</String>
             </Appearance>
             <String>软技能</String>
         </Note>
-        <Note ID="125" FontSize="12.0" Position="3036.760742,889.0" Width="56.0">
+        <Note ID="125" FontSize="12.0" Position="3037.0,889.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>人生观啊</String>
         </Note>
-        <Note ID="126" FontSize="12.0" Position="3036.760742,920.0" Width="80.0">
+        <Note ID="126" FontSize="12.0" Position="3037.0,920.0" Width="80.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>最遗憾的事啊</String>
         </Note>
-        <Note ID="127" FontSize="12.0" Position="3036.760742,951.0" Width="104.0">
+        <Note ID="127" FontSize="12.0" Position="3037.0,951.0" Width="104.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>最有成就感的事啊</String>
         </Note>
-        <Note ID="128" FontSize="12.0" Position="2429.760742,1185.0" Width="80.0">
+        <Note ID="128" FontSize="12.0" Position="2430.0,1185.0" Width="80.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -491,7 +491,7 @@ page speed、Lighthouse、e2e</String>
                 <FormatRange Bold="Yes">0,6</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="129" FontSize="12.0" Position="2430.760742,1212.0" Width="248.0">
+        <Note ID="129" FontSize="12.0" Position="2431.0,1212.0" Width="248.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -499,13 +499,13 @@ page speed、Lighthouse、e2e</String>
 第二天复习所选模块，总共需要复习五次
 备注各个知识点的参考链接，自己做浓缩笔记</String>
         </Note>
-        <Note ID="130" FontSize="12.0" Position="2265.760742,817.0" Width="64.0">
+        <Note ID="130" FontSize="12.0" Position="2266.0,817.0" Width="64.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>MIME类型</String>
         </Note>
-        <Note ID="132" FontSize="12.0" Position="2734.760742,1172.0" Width="200.0">
+        <Note ID="132" FontSize="12.0" Position="2735.0,1172.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -520,7 +520,7 @@ page speed、Lighthouse、e2e</String>
 解释 CSS Grid和 CSS flexbox 术语？
 浮动元素（float：left | right;）如何在 CSS Grid 和 flexbox 中渲染？</String>
         </Note>
-        <Note ID="133" FontSize="12.0" Position="2956.760742,1176.0" Width="201.0">
+        <Note ID="133" FontSize="12.0" Position="2957.0,1176.0" Width="201.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -529,38 +529,38 @@ css与js之间变量如何共享？
 css变量比scss好在什么地方
 网站换肤有哪些方案</String>
         </Note>
-        <Note ID="134" FontSize="12.0" Position="2838.760742,1031.0" Width="32.0">
+        <Note ID="134" FontSize="12.0" Position="2839.0,1031.0" Width="32.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>阶乘</String>
         </Note>
-        <Note ID="135" FontSize="12.0" Position="2286.490723,287.042572" Width="85.0">
+        <Note ID="135" FontSize="12.0" Position="2286.0,287.0" Width="85.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>apply call bind</String>
         </Note>
-        <Note ID="136" FontSize="12.0" Position="2265.760742,789.0" Width="34.0">
+        <Note ID="136" FontSize="12.0" Position="2266.0,789.0" Width="34.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>CDN</String>
         </Note>
-        <Note ID="137" FontSize="12.0" Position="2169.760742,1207.0" Width="67.0">
+        <Note ID="137" FontSize="12.0" Position="2170.0,1207.0" Width="67.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>读 Co 源码</String>
         </Note>
-        <Note ID="139" FontSize="12.0" Position="2174.22876,1318.874512" Width="200.0">
+        <Note ID="139" FontSize="12.0" Position="2174.0,1319.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>https://es6.ruanyifeng.com/#docs/generator-async#%E5%AE%9E%E4%BE%8B%EF%BC%9A%E5%A4%84%E7%90%86-Stream</String>
             <ConnectedNoteIDs>48</ConnectedNoteIDs>
         </Note>
-        <Note ID="141" FontSize="12.0" Position="2201.490723,167.042572" Width="32.0">
+        <Note ID="141" FontSize="12.0" Position="2201.0,167.0" Width="32.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.561855 0.71062 0.779401</Border>
@@ -568,7 +568,7 @@ css变量比scss好在什么地方
             </Appearance>
             <String>完成</String>
         </Note>
-        <Note ID="143" FontSize="12.0" Position="2243.490723,167.042572" Width="44.0">
+        <Note ID="143" FontSize="12.0" Position="2243.0,167.0" Width="44.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -576,7 +576,7 @@ css变量比scss好在什么地方
             </Appearance>
             <String>进行中</String>
         </Note>
-        <Note ID="144" FontSize="12.0" Position="2838.760742,59.0" Width="132.0">
+        <Note ID="144" FontSize="12.0" Position="2839.0,59.0" Width="132.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -585,13 +585,13 @@ css变量比scss好在什么地方
                 <FormatRange Link="https://css-tricks.com/an-introduction-and-guide-to-the-css-object-model-cssom/">0,79</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="145" FontSize="12.0" Position="2522.760742,355.0" Width="20.0">
+        <Note ID="145" FontSize="12.0" Position="2523.0,355.0" Width="20.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String><![CDATA[ ]]></String>
         </Note>
-        <Note ID="147" FontSize="12.0" Position="2666.760742,32.0" Width="53.0">
+        <Note ID="147" FontSize="12.0" Position="2667.0,32.0" Width="53.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -599,7 +599,7 @@ css变量比scss好在什么地方
             </Appearance>
             <String>CSSOM</String>
         </Note>
-        <Note ID="148" FontSize="12.0" Position="2522.760742,79.0" Width="130.0">
+        <Note ID="148" FontSize="12.0" Position="2523.0,79.0" Width="130.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.561855 0.71062 0.779401</Border>
@@ -608,7 +608,7 @@ css变量比scss好在什么地方
             <String>RTL Selector Matching</String>
             <ConnectedNoteIDs>149</ConnectedNoteIDs>
         </Note>
-        <Note ID="149" FontSize="12.0" Position="2460.760742,108.0" Width="267.0">
+        <Note ID="149" FontSize="12.0" Position="2461.0,108.0" Width="267.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -621,7 +621,7 @@ css变量比scss好在什么地方
 无非就是个性能问题</String>
             <ConnectedNoteIDs>148</ConnectedNoteIDs>
         </Note>
-        <Note ID="151" FontSize="12.0" Position="3235.760742,34.0" Width="80.0">
+        <Note ID="151" FontSize="12.0" Position="3236.0,34.0" Width="80.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -629,7 +629,7 @@ css变量比scss好在什么地方
             </Appearance>
             <String>Promise 手写</String>
         </Note>
-        <Note ID="153" FontSize="12.0" Position="3070.760742,71.0" Width="200.0">
+        <Note ID="153" FontSize="12.0" Position="3071.0,71.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -638,7 +638,7 @@ css变量比scss好在什么地方
                 <FormatRange Underline="Yes" Link="https://hackernoon.com/implementing-javascript-promise-in-70-lines-of-code-b3592565af0f">0,87</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="155" FontSize="12.0" Position="3072.760742,127.0" Width="251.0">
+        <Note ID="155" FontSize="12.0" Position="3073.0,127.0" Width="251.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -649,32 +649,32 @@ css变量比scss好在什么地方
 - 状态机来切换状态，而非许多 if statement
 - </String>
         </Note>
-        <Note ID="156" FontSize="12.0" Position="2310.490723,251.042572" Width="32.0">
+        <Note ID="156" FontSize="12.0" Position="2310.0,251.0" Width="32.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>闭包</String>
         </Note>
-        <Note ID="157" FontSize="12.0" Position="2308.490723,321.042572" Width="27.0">
+        <Note ID="157" FontSize="12.0" Position="2308.0,321.0" Width="27.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>this</String>
         </Note>
-        <Note ID="158" FontSize="12.0" Position="2168.490723,470.042572" Width="26.0">
+        <Note ID="158" FontSize="12.0" Position="2168.0,470.0" Width="26.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>GC</String>
         </Note>
-        <Note ID="159" FontSize="12.0" Position="1807.89624,225.335007" Width="68.0">
+        <Note ID="159" FontSize="12.0" Position="1808.0,225.0" Width="68.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>并发，串行</String>
             <ConnectedNoteIDs>160</ConnectedNoteIDs>
         </Note>
-        <Note ID="160" FontSize="12.0" Position="1677.50061,262.335022" Width="200.0">
+        <Note ID="160" FontSize="12.0" Position="1678.0,262.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -683,7 +683,7 @@ css变量比scss好在什么地方
 串行：一个接一个</String>
             <ConnectedNoteIDs>159, 161</ConnectedNoteIDs>
         </Note>
-        <Note ID="161" FontSize="15.0" Position="1589.672119,174.770279" Width="68.0">
+        <Note ID="161" FontSize="15.0" Position="1590.0,175.0" Width="68.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -692,7 +692,7 @@ css变量比scss好在什么地方
             <String>异步编程</String>
             <ConnectedNoteIDs>160, 162, 190-192, 194</ConnectedNoteIDs>
         </Note>
-        <Note ID="162" FontSize="12.0" Position="1727.50061,354.335022" Width="105.0">
+        <Note ID="162" FontSize="12.0" Position="1728.0,354.0" Width="105.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -700,141 +700,141 @@ css变量比scss好在什么地方
 使用 Async 代替</String>
             <ConnectedNoteIDs>161, 163</ConnectedNoteIDs>
         </Note>
-        <Note ID="163" FontSize="12.0" Position="1680.50061,405.335022" Width="150.0">
+        <Note ID="163" FontSize="12.0" Position="1681.0,405.0" Width="150.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>1.竞态 promise  race，any</String>
             <ConnectedNoteIDs>162, 164</ConnectedNoteIDs>
         </Note>
-        <Note ID="164" FontSize="12.0" Position="1680.50061,442.335022" Width="200.0">
+        <Note ID="164" FontSize="12.0" Position="1681.0,442.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>2.串行 async await, promise 函数递归</String>
             <ConnectedNoteIDs>163, 165</ConnectedNoteIDs>
         </Note>
-        <Note ID="165" FontSize="12.0" Position="1680.50061,490.335022" Width="137.0">
+        <Note ID="165" FontSize="12.0" Position="1681.0,490.0" Width="137.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>3.实现一个 promise limit</String>
             <ConnectedNoteIDs>164</ConnectedNoteIDs>
         </Note>
-        <Note ID="166" FontSize="12.0" Position="2266.760742,991.0" Width="64.0">
+        <Note ID="166" FontSize="12.0" Position="2267.0,991.0" Width="64.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>event loop</String>
             <ConnectedNoteIDs>12</ConnectedNoteIDs>
         </Note>
-        <Note ID="167" FontSize="12.0" Position="2268.760742,1020.0" Width="56.0">
+        <Note ID="167" FontSize="12.0" Position="2269.0,1020.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>文件操作</String>
         </Note>
-        <Note ID="169" FontSize="12.0" Position="2028.76062,944.0" Width="68.0">
+        <Note ID="169" FontSize="12.0" Position="2029.0,944.0" Width="68.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>大文件上传</String>
             <ConnectedNoteIDs>12</ConnectedNoteIDs>
         </Note>
-        <Note ID="170" FontSize="12.0" Position="2028.76062,975.0" Width="34.0">
+        <Note ID="170" FontSize="12.0" Position="2029.0,975.0" Width="34.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>QPS</String>
             <ConnectedNoteIDs>12</ConnectedNoteIDs>
         </Note>
-        <Note ID="172" FontSize="12.0" Position="2028.76062,1003.0" Width="44.0">
+        <Note ID="172" FontSize="12.0" Position="2029.0,1003.0" Width="44.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>幂等性</String>
             <ConnectedNoteIDs>12</ConnectedNoteIDs>
         </Note>
-        <Note ID="173" FontSize="12.0" Position="2028.76062,1034.0" Width="56.0">
+        <Note ID="173" FontSize="12.0" Position="2029.0,1034.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>任务调度</String>
             <ConnectedNoteIDs>12</ConnectedNoteIDs>
         </Note>
-        <Note ID="174" FontSize="12.0" Position="2028.76062,1065.0" Width="37.0">
+        <Note ID="174" FontSize="12.0" Position="2029.0,1065.0" Width="37.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>sleep</String>
             <ConnectedNoteIDs>12</ConnectedNoteIDs>
         </Note>
-        <Note ID="175" FontSize="12.0" Position="2028.76062,1093.0" Width="62.0">
+        <Note ID="175" FontSize="12.0" Position="2029.0,1093.0" Width="62.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>redis 原理</String>
             <ConnectedNoteIDs>12</ConnectedNoteIDs>
         </Note>
-        <Note ID="176" FontSize="12.0" Position="2012.76062,1146.0" Width="99.0">
+        <Note ID="176" FontSize="12.0" Position="2013.0,1146.0" Width="99.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Stream 流式渲染</String>
             <ConnectedNoteIDs>90</ConnectedNoteIDs>
         </Note>
-        <Note ID="177" FontSize="12.0" Position="2289.760742,1053.0" Width="77.0">
+        <Note ID="177" FontSize="12.0" Position="2290.0,1053.0" Width="77.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>日志
 - 清、写、查</String>
         </Note>
-        <Note ID="178" FontSize="12.0" Position="2279.760742,1111.0" Width="41.0">
+        <Note ID="178" FontSize="12.0" Position="2280.0,1111.0" Width="41.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>matrix</String>
         </Note>
-        <Note ID="179" FontSize="12.0" Position="2239.760742,1176.0" Width="143.0">
+        <Note ID="179" FontSize="12.0" Position="2240.0,1176.0" Width="143.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>监控 CPU 内存 反查 快照</String>
         </Note>
-        <Note ID="180" FontSize="12.0" Position="2276.760742,1140.0" Width="56.0">
+        <Note ID="180" FontSize="12.0" Position="2277.0,1140.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>高速缓存</String>
         </Note>
-        <Note ID="181" FontSize="12.0" Position="2266.760742,1210.0" Width="94.0">
+        <Note ID="181" FontSize="12.0" Position="2267.0,1210.0" Width="94.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>RPC应用层协议</String>
         </Note>
-        <Note ID="183" FontSize="12.0" Position="2168.760742,1237.0" Width="47.0">
+        <Note ID="183" FontSize="12.0" Position="2169.0,1237.0" Width="47.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Docker</String>
         </Note>
-        <Note ID="184" FontSize="12.0" Position="2083.760742,1177.0" Width="43.0">
+        <Note ID="184" FontSize="12.0" Position="2084.0,1177.0" Width="43.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Sentry</String>
             <ConnectedNoteIDs>102</ConnectedNoteIDs>
         </Note>
-        <Note ID="185" FontSize="12.0" Position="1930.76062,699.0" Width="160.0">
+        <Note ID="185" FontSize="12.0" Position="1931.0,699.0" Width="160.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>七层网络分层 每一层有哪些协议</String>
             <ConnectedNoteIDs>9</ConnectedNoteIDs>
         </Note>
-        <Note ID="186" FontSize="12.0" Position="1930.76062,747.0" Width="169.0">
+        <Note ID="186" FontSize="12.0" Position="1931.0,747.0" Width="169.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -842,7 +842,7 @@ css变量比scss好在什么地方
 四次挥手状态细节</String>
             <ConnectedNoteIDs>9</ConnectedNoteIDs>
         </Note>
-        <Note ID="188" FontSize="12.0" Position="1921.76062,791.0" Width="196.0">
+        <Note ID="188" FontSize="12.0" Position="1922.0,791.0" Width="196.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -856,7 +856,7 @@ HTTP3.0 UDP 重传和校准机制</String>
                 <FormatRange Bold="Yes">7,2</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="189" FontSize="12.0" Position="1920.76062,885.0" Width="176.0">
+        <Note ID="189" FontSize="12.0" Position="1921.0,885.0" Width="176.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -864,7 +864,7 @@ HTTP3.0 UDP 重传和校准机制</String>
 强制缓存，协商缓存，缓存击穿(锁)</String>
             <ConnectedNoteIDs>51</ConnectedNoteIDs>
         </Note>
-        <Note ID="190" FontSize="12.0" Position="1488.50061,222.335007" Width="116.0">
+        <Note ID="190" FontSize="12.0" Position="1489.0,222.0" Width="116.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -872,7 +872,7 @@ HTTP3.0 UDP 重传和校准机制</String>
             <ConnectedNoteIDs>161</ConnectedNoteIDs>
             <PointsToNoteIDs>161</PointsToNoteIDs>
         </Note>
-        <Note ID="191" FontSize="12.0" Position="1379.50061,326.335022" Width="200.0">
+        <Note ID="191" FontSize="12.0" Position="1380.0,326.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <TextColor>0.0 0.0 0.914985</TextColor>
@@ -889,7 +889,7 @@ https://github.com/dai-siki/Blog/issues/1</String>
                 <FormatRange Underline="Yes" Link="https://github.com/dai-siki/Blog/issues/1">47,41</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="192" FontSize="12.0" Position="1386.50061,254.335007" Width="155.0">
+        <Note ID="192" FontSize="12.0" Position="1387.0,254.0" Width="155.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -899,7 +899,7 @@ generator 的 yield 就是暂停</String>
             <ConnectedNoteIDs>161</ConnectedNoteIDs>
             <PointsToNoteIDs>161</PointsToNoteIDs>
         </Note>
-        <Note ID="194" FontSize="12.0" Position="1377.50061,414.335022" Width="200.0">
+        <Note ID="194" FontSize="12.0" Position="1378.0,414.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -907,41 +907,41 @@ generator 的 yield 就是暂停</String>
             <ConnectedNoteIDs>161, 195-197</ConnectedNoteIDs>
             <PointsToNoteIDs>161</PointsToNoteIDs>
         </Note>
-        <Note ID="195" FontSize="12.0" Position="1378.50061,463.335022" Width="200.0">
+        <Note ID="195" FontSize="12.0" Position="1379.0,463.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Promises对象是CommonJS工作组提出的一种规范，目的是为异步编程提供统一接口</String>
             <ConnectedNoteIDs>194</ConnectedNoteIDs>
         </Note>
-        <Note ID="196" FontSize="12.0" Position="1378.50061,528.335022" Width="200.0">
+        <Note ID="196" FontSize="12.0" Position="1379.0,528.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Generator 需要执行器，所以才有了 Co 模块</String>
             <ConnectedNoteIDs>194</ConnectedNoteIDs>
         </Note>
-        <Note ID="197" FontSize="12.0" Position="1378.50061,588.335022" Width="200.0">
+        <Note ID="197" FontSize="12.0" Position="1379.0,588.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>async 函数改造了 generator, 内置了执行器，return value 是 promise</String>
             <ConnectedNoteIDs>194, 198</ConnectedNoteIDs>
         </Note>
-        <Note ID="198" FontSize="12.0" Position="1378.50061,636.335022" Width="116.0">
+        <Note ID="198" FontSize="12.0" Position="1379.0,636.0" Width="116.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>callback 改 promise</String>
             <ConnectedNoteIDs>197</ConnectedNoteIDs>
         </Note>
-        <Note ID="199" FontSize="12.0" Position="3368.760742,808.0" Width="68.0">
+        <Note ID="199" FontSize="12.0" Position="3369.0,808.0" Width="68.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>直接说不会</String>
         </Note>
-        <Note ID="201" FontSize="15.0" Position="3462.760742,774.0" Width="38.0">
+        <Note ID="201" FontSize="15.0" Position="3463.0,774.0" Width="38.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -949,19 +949,19 @@ generator 的 yield 就是暂停</String>
             </Appearance>
             <String>面试</String>
         </Note>
-        <Note ID="202" FontSize="12.0" Position="3368.760742,839.0" Width="188.0">
+        <Note ID="202" FontSize="12.0" Position="3369.0,839.0" Width="188.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>简历每一条都要做好被提问的准备</String>
         </Note>
-        <Note ID="203" FontSize="12.0" Position="3368.760742,870.0" Width="128.0">
+        <Note ID="203" FontSize="12.0" Position="3369.0,870.0" Width="128.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>往在你擅长的方面上扯</String>
         </Note>
-        <Note ID="204" FontSize="12.0" Position="3367.760742,900.0" Width="254.0">
+        <Note ID="204" FontSize="12.0" Position="3368.0,900.0" Width="254.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -980,13 +980,13 @@ generator 的 yield 就是暂停</String>
 框架选型依据？
 所在团队工作流程的介绍、以及你在团队中的定位和技术排名</String>
         </Note>
-        <Note ID="205" FontSize="12.0" Position="3367.760742,1203.0" Width="254.0">
+        <Note ID="205" FontSize="12.0" Position="3368.0,1203.0" Width="254.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>“根据我今天的表现，面试官对我有什么建议？”</String>
         </Note>
-        <Note ID="206" FontSize="12.0" Position="3586.760742,784.0" Width="213.0">
+        <Note ID="206" FontSize="12.0" Position="3587.0,784.0" Width="213.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -997,14 +997,14 @@ generator 的 yield 就是暂停</String>
 前端发展趋势
 团队的组成、在团队的定位、技术排名</String>
         </Note>
-        <Note ID="207" FontSize="12.0" Position="2307.760742,955.0" Width="68.0">
+        <Note ID="207" FontSize="12.0" Position="2308.0,955.0" Width="68.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <TextColor>0.985948 0.0 0.026951</TextColor>
             </Appearance>
             <String>优先级最低</String>
         </Note>
-        <Note ID="208" FontSize="12.0" Position="1920.466431,287.697327" Width="200.0">
+        <Note ID="208" FontSize="12.0" Position="1920.0,288.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1014,7 +1014,7 @@ generator 的 yield 就是暂停</String>
                 <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/2">0,44</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="209" FontSize="12.0" Position="3569.760742,978.0" Width="200.0">
+        <Note ID="209" FontSize="12.0" Position="3570.0,978.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1023,7 +1023,7 @@ generator 的 yield 就是暂停</String>
                 <FormatRange Underline="Yes" Link="https://github.com/liusaint/Interview-Questions-Answers">0,55</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="211" FontSize="12.0" Position="1933.085815,339.812653" Width="175.0">
+        <Note ID="211" FontSize="12.0" Position="1933.0,340.0" Width="175.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1039,7 +1039,7 @@ generator 的 yield 就是暂停</String>
                 <FormatRange Link="https://github.com/mqyqingfeng/Blog/issues/16">0,45</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="212" FontSize="12.0" Position="1935.076538,170.284012" Width="185.0">
+        <Note ID="212" FontSize="12.0" Position="1935.0,170.0" Width="185.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1057,7 +1057,7 @@ https://github.com/mqyqingfeng/Blog
                 <FormatRange Link="https://github.com/mqyqingfeng/Blog">53,35</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="216" FontSize="17.0" Position="1326.008301,696.622009" Width="104.0">
+        <Note ID="216" FontSize="17.0" Position="1326.0,697.0" Width="104.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -1065,7 +1065,7 @@ https://github.com/mqyqingfeng/Blog
             </Appearance>
             <String>ES 语言层面</String>
         </Note>
-        <Note ID="217" FontSize="12.0" Position="901.62085,739.0" Width="200.0">
+        <Note ID="217" FontSize="12.0" Position="902.0,739.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1076,7 +1076,7 @@ https://github.com/mqyqingfeng/Blog
                 <FormatRange Bold="Yes">0,3</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="218" FontSize="12.0" Position="894.360107,841.467346" Width="303.0">
+        <Note ID="218" FontSize="12.0" Position="894.0,841.0" Width="303.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1089,7 +1089,7 @@ https://github.com/mqyqingfeng/Blog
                 <FormatRange Bold="Yes">4,5</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="219" FontSize="12.0" Position="901.517944,943.850647" Width="250.0">
+        <Note ID="219" FontSize="12.0" Position="902.0,944.0" Width="250.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1099,7 +1099,7 @@ https://github.com/mqyqingfeng/Blog
                 <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/3">0,44</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="221" FontSize="12.0" Position="1194.400269,741.859863" Width="200.0">
+        <Note ID="221" FontSize="12.0" Position="1194.0,742.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1120,7 +1120,7 @@ https://github.com/mqyqingfeng/Blog
                 <FormatRange Bold="Yes">134,4</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="223" FontSize="12.0" Position="1195.9104,938.908081" Width="200.0">
+        <Note ID="223" FontSize="12.0" Position="1196.0,939.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1140,13 +1140,13 @@ https://github.com/mqyqingfeng/Blog
 this</String>
             <ConnectedNoteIDs>221, 226</ConnectedNoteIDs>
         </Note>
-        <Note ID="225" FontSize="12.0" Position="1402.848389,942.19165" Width="167.0">
+        <Note ID="225" FontSize="12.0" Position="1403.0,942.0" Width="167.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>全局对象是JS引擎预设的对象</String>
         </Note>
-        <Note ID="226" FontSize="12.0" Position="1402.250488,821.623169" Width="200.0">
+        <Note ID="226" FontSize="12.0" Position="1402.0,822.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1164,7 +1164,7 @@ this</String>
                 <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/6">0,44</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="228" FontSize="12.0" Position="1645.479736,689.827637" Width="29.0">
+        <Note ID="228" FontSize="12.0" Position="1645.0,690.0" Width="29.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.561855 0.71062 0.779401</Border>
@@ -1173,7 +1173,7 @@ this</String>
             <String>this</String>
             <ConnectedNoteIDs>229-230</ConnectedNoteIDs>
         </Note>
-        <Note ID="229" FontSize="12.0" Position="1636.985474,744.826538" Width="199.0">
+        <Note ID="229" FontSize="12.0" Position="1637.0,745.0" Width="199.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1185,7 +1185,7 @@ this</String>
 正经的 this 得从 ECMA 规范看</String>
             <ConnectedNoteIDs>228</ConnectedNoteIDs>
         </Note>
-        <Note ID="230" FontSize="12.0" Position="1686.98291,697.81073" Width="200.0">
+        <Note ID="230" FontSize="12.0" Position="1687.0,698.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1195,7 +1195,7 @@ this</String>
                 <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/7">0,44</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="231" FontSize="12.0" Position="961.206299,976.0" Width="32.0">
+        <Note ID="231" FontSize="12.0" Position="961.0,976.0" Width="32.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.561855 0.71062 0.779401</Border>
@@ -1204,7 +1204,7 @@ this</String>
             <String>闭包</String>
             <ConnectedNoteIDs>232-234</ConnectedNoteIDs>
         </Note>
-        <Note ID="232" FontSize="12.0" Position="896.458435,1009.0" Width="273.0">
+        <Note ID="232" FontSize="12.0" Position="896.0,1009.0" Width="273.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1215,7 +1215,7 @@ this</String>
 闭包 = 函数 + 函数能够访问自由变量</String>
             <ConnectedNoteIDs>231</ConnectedNoteIDs>
         </Note>
-        <Note ID="233" FontSize="12.0" Position="1166.785034,992.140808" Width="422.0">
+        <Note ID="233" FontSize="12.0" Position="1167.0,992.0" Width="422.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <TextColor>0.106479 0.120249 0.135259</TextColor>
@@ -1240,7 +1240,7 @@ fContext = {
                 <FormatRange Bold="Yes">277,16</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="234" FontSize="12.0" Position="900.035522,1127.707031" Width="200.0">
+        <Note ID="234" FontSize="12.0" Position="900.0,1128.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1252,7 +1252,7 @@ fContext = {
                 <FormatRange Underline="Yes">45,4</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="235" FontSize="12.0" Position="3061.572266,521.141113" Width="207.0">
+        <Note ID="235" FontSize="12.0" Position="3062.0,521.0" Width="207.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1264,77 +1264,77 @@ fContext = {
         </Note>
     </Notes>
     <BackgroundShapes>
-        <Shape ID="28" Sticky="Yes" Position="2137.490723,205.042572" Width="260.0" Height="343.294434">
+        <Shape ID="28" Sticky="Yes" Position="2137.0,205.0" Width="260.0" Height="343.294434">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="35" Sticky="Yes" Position="2431.760742,436.0" Width="260.0" Height="171.460938">
+        <Shape ID="35" Sticky="Yes" Position="2432.0,436.0" Width="260.0" Height="171.460938">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="39" Sticky="Yes" Position="2140.760742,741.0" Width="260.0" Height="176.0">
+        <Shape ID="39" Sticky="Yes" Position="2141.0,741.0" Width="260.0" Height="176.0">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="43" Sticky="Yes" Position="3031.760742,590.0" Width="260.0" Height="220.097656">
+        <Shape ID="43" Sticky="Yes" Position="3032.0,590.0" Width="260.0" Height="220.097656">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="46" Sticky="Yes" Position="2140.760742,943.0" Width="259.872467" Height="340.695312">
+        <Shape ID="46" Sticky="Yes" Position="2141.0,943.0" Width="259.872467" Height="340.695312">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="69" Sticky="Yes" Position="2430.760742,635.0" Width="258.0" Height="291.0">
+        <Shape ID="69" Sticky="Yes" Position="2431.0,635.0" Width="258.0" Height="291.0">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="72" Sticky="Yes" Position="2720.760742,847.0" Width="260.0" Height="278.824219">
+        <Shape ID="72" Sticky="Yes" Position="2721.0,847.0" Width="260.0" Height="278.824219">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="77" Sticky="Yes" Position="2722.760742,435.0" Width="290.0" Height="385.320312">
+        <Shape ID="77" Sticky="Yes" Position="2723.0,435.0" Width="290.0" Height="385.320312">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="85" Sticky="Yes" Position="3036.760742,435.0" Width="260.0" Height="135.972656">
+        <Shape ID="85" Sticky="Yes" Position="3037.0,435.0" Width="260.0" Height="135.972656">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="99" Sticky="Yes" Position="2429.760742,939.0" Width="260.0" Height="234.785156">
+        <Shape ID="99" Sticky="Yes" Position="2430.0,939.0" Width="260.0" Height="234.785156">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="124" Sticky="No" Position="3021.760742,839.0" Width="300.0" Height="200.0">
+        <Shape ID="124" Sticky="No" Position="3022.0,839.0" Width="300.0" Height="200.0">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="146" Sticky="Yes" Position="2439.760742,26.0" Width="559.724915" Height="372.0">
+        <Shape ID="146" Sticky="Yes" Position="2440.0,26.0" Width="559.724915" Height="372.0">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="150" Sticky="No" Position="3044.760742,26.0" Width="461.518494" Height="368.211029">
+        <Shape ID="150" Sticky="No" Position="3045.0,26.0" Width="461.518494" Height="368.211029">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="200" Sticky="No" Position="3344.760742,767.0" Width="466.0" Height="491.980896">
+        <Shape ID="200" Sticky="No" Position="3345.0,767.0" Width="466.0" Height="491.980896">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="213" Sticky="No" Position="1335.205444,166.0" Width="574.0" Height="508.0">
+        <Shape ID="213" Sticky="No" Position="1335.0,166.0" Width="574.0" Height="508.0">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
