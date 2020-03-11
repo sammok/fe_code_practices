@@ -674,7 +674,7 @@ css变量比scss好在什么地方
             <String>并发，串行</String>
             <ConnectedNoteIDs>160</ConnectedNoteIDs>
         </Note>
-        <Note ID="160" FontSize="12.0" Position="1678.0,262.0" Width="200.0">
+        <Note ID="160" FontSize="12.0" Position="1602.490967,252.027222" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -864,7 +864,7 @@ HTTP3.0 UDP 重传和校准机制</String>
 强制缓存，协商缓存，缓存击穿(锁)</String>
             <ConnectedNoteIDs>51</ConnectedNoteIDs>
         </Note>
-        <Note ID="190" FontSize="12.0" Position="1489.0,222.0" Width="116.0">
+        <Note ID="190" FontSize="12.0" Position="1388.661743,277.186432" Width="116.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -889,7 +889,7 @@ https://github.com/dai-siki/Blog/issues/1</String>
                 <FormatRange Underline="Yes" Link="https://github.com/dai-siki/Blog/issues/1">47,41</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="192" FontSize="12.0" Position="1387.0,254.0" Width="155.0">
+        <Note ID="192" FontSize="12.0" Position="1384.018799,179.00177" Width="155.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -911,10 +911,10 @@ generator 的 yield 就是暂停</String>
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
-            <String>Promises对象是CommonJS工作组提出的一种规范，目的是为异步编程提供统一接口</String>
+            <String>Promise对象是CommonJS工作组提出的一种规范，目的是为异步编程提供统一接口</String>
             <ConnectedNoteIDs>194</ConnectedNoteIDs>
         </Note>
-        <Note ID="196" FontSize="12.0" Position="1379.0,528.0" Width="200.0">
+        <Note ID="196" FontSize="12.0" Position="1378.37854,531.571838" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1339,11 +1339,6 @@ fContext = {
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="214" Sticky="Yes" Position="887.0,686.0" Width="1025.0" Height="615.0">
-            <Appearance>
-                <Border Weight="1"></Border>
-            </Appearance>
-        </Shape>
     </BackgroundShapes>
     <Stacks>
         <Stack>1, 88-89, 118</Stack>
@@ -1364,7 +1359,6 @@ fContext = {
         <Stack>164-165</Stack>
         <Stack>169-170, 172-175</Stack>
         <Stack>185-186</Stack>
-        <Stack>195-196</Stack>
         <Stack>197-198</Stack>
         <Stack>199, 202-203</Stack>
         <Stack>204-205</Stack>
