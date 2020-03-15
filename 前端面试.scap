@@ -1267,6 +1267,18 @@ fContext = {
             </Appearance>
             <String>当进行隐式类型转换的时候，会先调用对象的 valueOf 方法</String>
         </Note>
+        <Note ID="239" FontSize="12.0" Position="1623.488403,524.222351" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>macro-task: script（整体代码）, setTimeout, setInterval, setImmediate, I/O, UI rendering
+
+micro-task: process.nextTick, Promises（这里指浏览器实现的原生 Promise）, Object.observe, MutationObserver</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,10</FormatRange>
+                <FormatRange Bold="Yes">84,10</FormatRange>
+            </Formatting>
+        </Note>
     </Notes>
     <BackgroundShapes>
         <Shape ID="28" Sticky="Yes" Position="2137.0,205.0" Width="260.0" Height="343.294434">
@@ -1344,7 +1356,7 @@ fContext = {
                 <Border Weight="1"></Border>
             </Appearance>
         </Shape>
-        <Shape ID="236" Sticky="Yes" Position="894.756897,700.452087" Width="1017.0" Height="603.430603">
+        <Shape ID="236" Sticky="Yes" Position="894.756897,700.452087" Width="1001.0" Height="603.430603">
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
