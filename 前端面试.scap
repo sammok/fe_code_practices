@@ -1056,7 +1056,7 @@ https://github.com/mqyqingfeng/Blog
                 <FormatRange Link="https://github.com/mqyqingfeng/Blog">53,35</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="216" FontSize="17.0" Position="1326.0,697.0" Width="104.0">
+        <Note ID="216" FontSize="17.0" Position="1343.421387,715.88269" Width="104.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.794796 0.560965 0.58607</Border>
@@ -1064,7 +1064,7 @@ https://github.com/mqyqingfeng/Blog
             </Appearance>
             <String>ES 语言层面</String>
         </Note>
-        <Note ID="217" FontSize="12.0" Position="897.735657,738.900452" Width="200.0">
+        <Note ID="217" FontSize="12.0" Position="915.157043,757.783081" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1075,7 +1075,7 @@ https://github.com/mqyqingfeng/Blog
                 <FormatRange Bold="Yes">0,3</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="218" FontSize="12.0" Position="894.0,841.0" Width="303.0">
+        <Note ID="218" FontSize="12.0" Position="911.421326,859.88269" Width="303.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1088,7 +1088,7 @@ https://github.com/mqyqingfeng/Blog
                 <FormatRange Bold="Yes">4,5</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="219" FontSize="12.0" Position="902.0,944.0" Width="250.0">
+        <Note ID="219" FontSize="12.0" Position="919.421326,962.88269" Width="250.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1098,7 +1098,7 @@ https://github.com/mqyqingfeng/Blog
                 <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/3">0,44</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="221" FontSize="12.0" Position="1194.0,742.0" Width="200.0">
+        <Note ID="221" FontSize="12.0" Position="1211.421387,760.88269" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1109,7 +1109,7 @@ https://github.com/mqyqingfeng/Blog
 
 程序的函数那么多如何管理上下文呢？JS引擎会创建 执行上下文栈(Execution context stack，ECS)来管理执行上下文
 </String>
-            <ConnectedNoteIDs>223-224</ConnectedNoteIDs>
+            <ConnectedNoteIDs>223-224, 236</ConnectedNoteIDs>
             <Formatting>
                 <FormatRange Bold="Yes">52,5</FormatRange>
                 <FormatRange Bold="Yes">57,19</FormatRange>
@@ -1119,7 +1119,7 @@ https://github.com/mqyqingfeng/Blog
                 <FormatRange Bold="Yes">134,4</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="223" FontSize="12.0" Position="1196.0,939.0" Width="200.0">
+        <Note ID="223" FontSize="12.0" Position="1213.421387,957.88269" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1129,7 +1129,7 @@ https://github.com/mqyqingfeng/Blog
                 <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/4">0,44</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="224" FontSize="12.0" Position="1401.0,743.0" Width="142.0">
+        <Note ID="224" FontSize="12.0" Position="1418.421387,761.88269" Width="142.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1139,13 +1139,13 @@ https://github.com/mqyqingfeng/Blog
 this</String>
             <ConnectedNoteIDs>221, 226</ConnectedNoteIDs>
         </Note>
-        <Note ID="225" FontSize="12.0" Position="1403.0,942.0" Width="167.0">
+        <Note ID="225" FontSize="12.0" Position="1420.421387,960.88269" Width="167.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>全局对象是JS引擎预设的对象</String>
         </Note>
-        <Note ID="226" FontSize="12.0" Position="1402.0,822.0" Width="200.0">
+        <Note ID="226" FontSize="12.0" Position="1419.421387,840.88269" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1153,7 +1153,7 @@ this</String>
 函数创建时内部有 [[scope]] 属性用来记录作用域链</String>
             <ConnectedNoteIDs>224, 227</ConnectedNoteIDs>
         </Note>
-        <Note ID="227" FontSize="12.0" Position="1402.0,904.0" Width="200.0">
+        <Note ID="227" FontSize="12.0" Position="1419.421387,922.88269" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1163,7 +1163,7 @@ this</String>
                 <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/6">0,44</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="228" FontSize="12.0" Position="1645.0,690.0" Width="29.0">
+        <Note ID="228" FontSize="12.0" Position="1662.421387,708.88269" Width="29.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.561855 0.71062 0.779401</Border>
@@ -1172,7 +1172,7 @@ this</String>
             <String>this</String>
             <ConnectedNoteIDs>229-230</ConnectedNoteIDs>
         </Note>
-        <Note ID="229" FontSize="12.0" Position="1637.0,745.0" Width="207.0">
+        <Note ID="229" FontSize="12.0" Position="1654.421387,763.88269" Width="207.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1185,7 +1185,7 @@ this</String>
 也就是函数有没有调用 GetValue, Get Value 返回的 ref 不是 Reference 类型</String>
             <ConnectedNoteIDs>228</ConnectedNoteIDs>
         </Note>
-        <Note ID="230" FontSize="12.0" Position="1687.0,698.0" Width="200.0">
+        <Note ID="230" FontSize="12.0" Position="1704.421387,716.88269" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1195,7 +1195,7 @@ this</String>
                 <FormatRange Underline="Yes" Link="https://github.com/mqyqingfeng/Blog/issues/7">0,44</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="231" FontSize="12.0" Position="961.0,976.0" Width="32.0">
+        <Note ID="231" FontSize="12.0" Position="978.421326,994.88269" Width="32.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1">0.561855 0.71062 0.779401</Border>
@@ -1204,7 +1204,7 @@ this</String>
             <String>闭包</String>
             <ConnectedNoteIDs>232-234</ConnectedNoteIDs>
         </Note>
-        <Note ID="232" FontSize="12.0" Position="896.0,1009.0" Width="273.0">
+        <Note ID="232" FontSize="12.0" Position="913.421326,1027.88269" Width="273.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1215,7 +1215,7 @@ this</String>
 闭包 = 函数 + 函数能够访问自由变量</String>
             <ConnectedNoteIDs>231</ConnectedNoteIDs>
         </Note>
-        <Note ID="233" FontSize="12.0" Position="1167.0,992.0" Width="422.0">
+        <Note ID="233" FontSize="12.0" Position="1184.421387,1010.88269" Width="422.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <TextColor>0.106479 0.120249 0.135259</TextColor>
@@ -1235,13 +1235,11 @@ fContext = {
 </String>
             <ConnectedNoteIDs>231</ConnectedNoteIDs>
             <Formatting>
-                <FormatRange Bold="Yes">258,16</FormatRange>
-                <FormatRange Bold="Yes">274,3</FormatRange>
-                <FormatRange Bold="Yes">277,16</FormatRange>
+                <FormatRange Bold="Yes">258,35</FormatRange>
                 <FormatRange Bold="Yes">323,20</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="234" FontSize="12.0" Position="900.0,1128.0" Width="200.0">
+        <Note ID="234" FontSize="12.0" Position="917.421326,1146.88269" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1262,6 +1260,12 @@ fContext = {
             <Formatting>
                 <FormatRange Underline="Yes" Link="https://segmentfault.com/n/1330000008386889">0,43</FormatRange>
             </Formatting>
+        </Note>
+        <Note ID="237" FontSize="12.0" Position="1656.917603,958.625244" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>当进行隐式类型转换的时候，会先调用对象的 valueOf 方法</String>
         </Note>
     </Notes>
     <BackgroundShapes>
@@ -1339,6 +1343,12 @@ fContext = {
             <Appearance>
                 <Border Weight="1"></Border>
             </Appearance>
+        </Shape>
+        <Shape ID="236" Sticky="Yes" Position="894.756897,700.452087" Width="1017.0" Height="603.430603">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <ConnectedNoteIDs>221</ConnectedNoteIDs>
         </Shape>
     </BackgroundShapes>
     <Stacks>
