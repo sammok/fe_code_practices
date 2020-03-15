@@ -76,3 +76,8 @@ class Nancy {
     return new Nancy(resolve => resolve(callback()));
   }
 }
+
+let p1 = new Nancy((res, rej) => {
+  setTimeout(() => rej(123), 100);
+}).then(res => console.log(res)).catch(e => console.error(e, 'handled'));
+  

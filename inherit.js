@@ -140,7 +140,7 @@
 
 // 6.寄生组合继承
 // 改进组合继承最大的缺点：会调用两次父构造函数，
-// 一次在 Child.prototype = new Parent();
+// 一次在 Child.prototype = new Parent(); //  浪费性能, 用一个空函数借走 Parent.prototype 即可
 // 一次在创建子类实例时，子类构造函数执行 Parent.call(this, name);
 (() => {
   function Parent (name) {
@@ -161,9 +161,11 @@
   // 关键的三步
   var F = function () {};
 
-  F.prototype = Parent.prototype; //  借用 Parent 对象 prototype
+  //  借用 Parent 对象 prototype, new F 的时候就不会像 new Parent 一样造成构造函数的调用浪费
+  F.prototype = Parent.prototype; 
 
-  Child.prototype = new F(); //  设置子对象原型对象为 F
+  //  设置子对象原型对象为 F
+  Child.prototype = new F(); 
 
   var child1 = new Child('kevin', '18');
 

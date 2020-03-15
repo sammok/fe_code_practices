@@ -1,8 +1,8 @@
 //  https://hackernoon.com/implementing-javascript-promise-in-70-lines-of-code-b3592565af0f
 const states = {
-  pending: 'Pending',
-  resolved: 'Resolved',
-  rejected: 'Rejected'
+  pending: "Pending",
+  resolved: "Resolved",
+  rejected: "Rejected"
 };
 
 /*
@@ -19,92 +19,83 @@ const states = {
 
 class Nancy {
   constructor(executor) {
-      //  solved "Sync" resolve() call:
-      //  1.wrapped original function call,
-      //  2.in Nancy.try() return a new Promise(for chainable) with value from callback(this.value) return(maybe promise);
-      const tryCall = callback => Nancy.try(() => callback(this.value));
-      const laterCalls = [];
-      //  solved "Async" resolve() call:        
-      //  1.wrapped original function call
-      //  2.return a new promise(for chainable) with a delayed call based on laterCalls' called,
-      //  3.the new promise's then callback will get the value from original function called
-      const callLater = getMember => callback => new Nancy(resolve => laterCalls.push(() => resolve(getMember()(callback))));
-      
-      //  state machine
-      const members = {
-          [states.resolved]: {
-              state: states.resolved,
-              then: tryCall,
-              catch: _ => this  //  ignored
-          },
-          [states.rejected]: {
-              state: states.rejected,
-              then: _ => this,  //  ignored
-              catch: tryCall
-          },
-          [states.pending]: {
-              state: states.pending,
-              //  if is pending, call later
-              then: callLater(() => this.then),
-              catch: callLater(() => this.catch)
-          }
-      };
-      const changeState = state => Object.assign(this, members[state]);
-      
-      const apply = (value, state) => {
-          //  change the state
-          if (this.state === states.pending) {
-              this.value = value;
-              changeState(state);
-              //  call all later call items
-              for (const laterCall of laterCalls) {
-                  laterCall();
-              }
-          }
-      };
+    //  solved "Sync" resolve() call:
+    //  1.wrapped original function call,
+    //  2.in Nancy.try() return a new Promise(for chainable) with value from callback(this.value) return(maybe promise);
+    const tryCall = callback => Nancy.try(() => callback(this.value));
+    const laterCalls = [];
+    //  solved "Async" resolve() call:
+    //  1.wrapped original function call
+    //  2.return a new promise(for chainable) with a delayed call based on laterCalls' called,
+    //  3.the new promise's then callback will get the value from original function called
+    const callLater = getMember => callback => new Nancy(resolve => aterCalls.push(() => resolve(getMember()(callback))));
 
-      //  save duplicate implement in resolve & reject part
-      //  when resolve|rejected called
-      const getCallback = state => value => {
-          //  check whether the value is Nancy type
-          //  if value is Nancy type & current state is resolved, will evaluate the final value(Nancy type)
-          if (value instanceof Nancy && state === states.resolved) {
-              //  auto call then && catch for the Nancy type value, recursived call
-              value.then(value => apply(value, states.resolved));
-              value.catch(value => apply(value, states.rejected));
-          } else {
-              //  directly call apply function to send the final result
-              apply(value, state);
-          }
-      };
-
-      const resolve = getCallback(states.resolved);
-      const reject = getCallback(states.rejected);
-      
-      //  set default state
-      changeState(states.pending);
-      
-      //  try to excute excutor
-      try {
-          executor(resolve, reject);
-      } catch (error) {
-          reject(error);
+    //  state machine
+    const members = {
+      [states.resolved]: {
+        state: states.resolved,
+        then: tryCall,
+        catch: _ => this
+      },
+      [states.rejected]: {
+        state: states.rejected,
+        then: _ => this,
+        catch: tryCall
+      },
+      [states.pending]: {
+        state: states.pending,
+        then: callLater(() => this.then),
+        catch: callLater(() => this.catch)
       }
+    };
+
+    const changeState = state => Object.assign(this, members[state]);
+
+    const apply = (value, state) => {
+      if (this.state === states.pending) {
+        this.value = value;
+        changeState(state);
+        for (const laterCall of laterCalls) {
+          laterCall();
+        }
+      }
+    };
+
+    const getCallback = state => value => {
+      if (value instanceof Nancy && state === states.resolved) {
+        value.then(value => apply(value, states.resolved));
+        value.catch(value => apply(value, states.rejected));
+      } else {
+        apply(value, state);
+      }
+    };
+
+    const resolve = getCallback(states.resolved);
+    const reject = getCallback(states.rejected);
+
+    changeState(states.pending);
+
+    try {
+      executor(resolve, reject);
+    } catch (e) {
+      console.log(e);
+      reject(e);
+    }
   }
 
   static resolve(value) {
-      return new Nancy(resolve => resolve(value));
+    return new Nancy(resolve => resolve(value));
   }
 
   static reject(value) {
-      return new Nancy((_, reject) => reject(value));
+    return new Nancy((_, reject) => reject(value));
   }
 
   static try(callback) {
-      //  @callback: original callback called with promise's value, 
-      //  return a promise for chainable
-      //  the return promise's value is callback function's return value
-      return new Nancy(resolve => resolve(callback()));
+    //  @callback: original callback called with promise's value,
+    //  return a promise for chainable
+    //  the return promise's value is callback function's return value
+    return new Nancy(resolve => resolve(callback()));
   }
 }
 
@@ -131,5 +122,7 @@ class Nancy {
 // }).then(res => console.log(res)).catch(e => console.log(e));
 
 let p4 = new Nancy((res, rej) => {
-setTimeout(() => rej(123), 100);
-}).then(res => console.log(res)).then(res => console.log(res)).then(res => console.log(res)).catch(e => console.error(e, 'handled'));
+  setTimeout(() => rej(123), 100);
+})
+  .then(res => console.log(res))
+  .catch(e => console.error(e, "handled"));

@@ -645,9 +645,8 @@ css变量比scss好在什么地方
             <String>- promiseA+规范
 - 三个状态
 - thenable Interface
-- Promise.resolve|reject 静态直接返回一个 promise 实例
-- 状态机来切换状态，而非许多 if statement
-- </String>
+- Promise.resolve | reject 静态直接返回一个 promise 实例
+- 状态机来切换状态，而非许多 if statement</String>
         </Note>
         <Note ID="156" FontSize="12.0" Position="2310.0,251.0" Width="32.0">
             <Appearance>
@@ -674,7 +673,7 @@ css变量比scss好在什么地方
             <String>并发，串行</String>
             <ConnectedNoteIDs>160</ConnectedNoteIDs>
         </Note>
-        <Note ID="160" FontSize="12.0" Position="1602.490967,252.027222" Width="200.0">
+        <Note ID="160" FontSize="12.0" Position="1602.0,252.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -864,7 +863,7 @@ HTTP3.0 UDP 重传和校准机制</String>
 强制缓存，协商缓存，缓存击穿(锁)</String>
             <ConnectedNoteIDs>51</ConnectedNoteIDs>
         </Note>
-        <Note ID="190" FontSize="12.0" Position="1388.661743,277.186432" Width="116.0">
+        <Note ID="190" FontSize="12.0" Position="1389.0,277.0" Width="116.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -889,7 +888,7 @@ https://github.com/dai-siki/Blog/issues/1</String>
                 <FormatRange Underline="Yes" Link="https://github.com/dai-siki/Blog/issues/1">47,41</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="192" FontSize="12.0" Position="1384.018799,179.00177" Width="155.0">
+        <Note ID="192" FontSize="12.0" Position="1384.0,179.0" Width="155.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -914,7 +913,7 @@ generator 的 yield 就是暂停</String>
             <String>Promise对象是CommonJS工作组提出的一种规范，目的是为异步编程提供统一接口</String>
             <ConnectedNoteIDs>194</ConnectedNoteIDs>
         </Note>
-        <Note ID="196" FontSize="12.0" Position="1378.37854,531.571838" Width="200.0">
+        <Note ID="196" FontSize="12.0" Position="1378.0,532.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1065,7 +1064,7 @@ https://github.com/mqyqingfeng/Blog
             </Appearance>
             <String>ES 语言层面</String>
         </Note>
-        <Note ID="217" FontSize="12.0" Position="902.0,739.0" Width="200.0">
+        <Note ID="217" FontSize="12.0" Position="897.735657,738.900452" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1173,7 +1172,7 @@ this</String>
             <String>this</String>
             <ConnectedNoteIDs>229-230</ConnectedNoteIDs>
         </Note>
-        <Note ID="229" FontSize="12.0" Position="1637.0,745.0" Width="199.0">
+        <Note ID="229" FontSize="12.0" Position="1637.0,745.0" Width="207.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -1182,7 +1181,8 @@ this</String>
 - 作为普通函数被调用
 - 函数经过 bind, apply, call 调用
 
-正经的 this 得从 ECMA 规范看</String>
+如何确定 this 的值得看 ECMA 规范：
+也就是函数有没有调用 GetValue, Get Value 返回的 ref 不是 Reference 类型</String>
             <ConnectedNoteIDs>228</ConnectedNoteIDs>
         </Note>
         <Note ID="230" FontSize="12.0" Position="1687.0,698.0" Width="200.0">
@@ -1238,6 +1238,7 @@ fContext = {
                 <FormatRange Bold="Yes">258,16</FormatRange>
                 <FormatRange Bold="Yes">274,3</FormatRange>
                 <FormatRange Bold="Yes">277,16</FormatRange>
+                <FormatRange Bold="Yes">323,20</FormatRange>
             </Formatting>
         </Note>
         <Note ID="234" FontSize="12.0" Position="900.0,1128.0" Width="200.0">

@@ -16,7 +16,7 @@
 //  举例
 var foo = 1;
 
-// 对应的Reference是：
+// 对应的 Reference 是：
 var fooReference = {
     base: EnvironmentRecord,
     name: 'foo',
